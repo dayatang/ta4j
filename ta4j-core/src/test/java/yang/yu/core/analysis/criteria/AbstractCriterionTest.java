@@ -28,7 +28,7 @@ import org.junit.runners.Parameterized;
 import yang.yu.core.AnalysisCriterion;
 import yang.yu.core.CriterionFactory;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.num.PrecisionNum;
 
 import java.util.Arrays;

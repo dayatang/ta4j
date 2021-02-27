@@ -27,13 +27,13 @@ import org.junit.Test;
 import yang.yu.core.*;
 import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.function.Function;
 
 import static org.junit.Assert.*;
 import static yang.yu.core.TestUtils.assertNumEquals;
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 public class VersusBuyAndHoldCriterionTest extends AbstractCriterionTest {
 

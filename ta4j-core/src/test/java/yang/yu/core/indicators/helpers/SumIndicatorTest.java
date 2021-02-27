@@ -27,7 +27,7 @@ import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.BarSeries;
 import yang.yu.core.base.BaseBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import static yang.yu.core.TestUtils.assertNumEquals;
 

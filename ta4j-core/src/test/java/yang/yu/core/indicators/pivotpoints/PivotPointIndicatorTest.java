@@ -45,7 +45,7 @@ import static yang.yu.core.indicators.pivotpoints.TimeLevel.DAY;
 import static yang.yu.core.indicators.pivotpoints.TimeLevel.MONTH;
 import static yang.yu.core.indicators.pivotpoints.TimeLevel.WEEK;
 import static yang.yu.core.indicators.pivotpoints.TimeLevel.YEAR;
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 public class PivotPointIndicatorTest {
 

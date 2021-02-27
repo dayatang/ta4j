@@ -37,7 +37,7 @@ import yang.yu.core.cost.LinearBorrowingCostModel;
 import yang.yu.core.cost.LinearTransactionCostModel;
 import yang.yu.core.indicators.SMAIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.trading.rules.OverIndicatorRule;
 import yang.yu.core.trading.rules.UnderIndicatorRule;
 import ta4jexamples.loaders.CsvTradesLoader;

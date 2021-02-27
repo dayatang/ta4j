@@ -26,7 +26,7 @@ package yang.yu.core.indicators;
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.helpers.TypicalPriceIndicator;
 import yang.yu.core.indicators.statistics.MeanDeviationIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Commodity Channel Index (CCI) indicator.

@@ -35,7 +35,7 @@ import yang.yu.core.ExternalIndicatorTest;
 import yang.yu.core.Indicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 public class StochasticRSIIndicatorTest extends AbstractIndicatorTest<Indicator<Num>, Num> {
     private BarSeries data;

@@ -32,7 +32,7 @@ import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.criteria.TotalProfitCriterion;
 import yang.yu.core.indicators.CCIIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.trading.rules.OverIndicatorRule;
 import yang.yu.core.trading.rules.UnderIndicatorRule;
 import ta4jexamples.loaders.CsvTradesLoader;

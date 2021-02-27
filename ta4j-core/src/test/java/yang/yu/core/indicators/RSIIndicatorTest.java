@@ -34,7 +34,7 @@ import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.indicators.helpers.GainIndicator;
 import yang.yu.core.indicators.helpers.LossIndicator;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.function.Function;
 

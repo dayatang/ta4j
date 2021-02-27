@@ -28,8 +28,8 @@ import yang.yu.core.Indicator;
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
+import yang.yu.core.Num;
 
 import java.util.function.Function;
 
@@ -49,7 +49,7 @@ public class DifferencePercentageIndicatorTest extends AbstractIndicatorTest<Ind
                 numOf(102.186952), numOf(91.9682568), numOf(100.5213046824), numOf(101.526517729224));
 
         percentageChangeIndicator = new DifferencePercentage(mockIndicator);
-        assertNumEquals(NaN.NaN, percentageChangeIndicator.getValue(0));
+        assertNumEquals(NaN, percentageChangeIndicator.getValue(0));
         assertNumEquals(numOf(1), percentageChangeIndicator.getValue(1));
         assertNumEquals(numOf(-2), percentageChangeIndicator.getValue(2));
         assertNumEquals(numOf(3.24), percentageChangeIndicator.getValue(3));
@@ -66,7 +66,7 @@ public class DifferencePercentageIndicatorTest extends AbstractIndicatorTest<Ind
                 numOf(1036.35), numOf(1067.4405));
 
         percentageChangeIndicator = new DifferencePercentage(mockIndicator, numOf(5));
-        assertNumEquals(NaN.NaN, percentageChangeIndicator.getValue(0));
+        assertNumEquals(NaN, percentageChangeIndicator.getValue(0));
         assertNumEquals(numOf(1), percentageChangeIndicator.getValue(1));
         assertNumEquals(numOf(2), percentageChangeIndicator.getValue(2));
         assertNumEquals(numOf(5), percentageChangeIndicator.getValue(3));
@@ -86,7 +86,7 @@ public class DifferencePercentageIndicatorTest extends AbstractIndicatorTest<Ind
                 numOf(1025), numOf(1038.325));
 
         percentageChangeIndicator = new DifferencePercentage(mockIndicator, 1.5);
-        assertNumEquals(NaN.NaN, percentageChangeIndicator.getValue(0));
+        assertNumEquals(NaN, percentageChangeIndicator.getValue(0));
         assertNumEquals(numOf(0), percentageChangeIndicator.getValue(1));
         assertNumEquals(numOf(1), percentageChangeIndicator.getValue(2));
         assertNumEquals(numOf(2.5), percentageChangeIndicator.getValue(3));

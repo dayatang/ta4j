@@ -27,8 +27,8 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.Indicator;
 import yang.yu.core.Trade;
 import yang.yu.core.TradingRecord;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
+import yang.yu.core.Num;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -91,7 +91,7 @@ public class Returns implements Indicator<Num> {
         this.barSeries = barSeries;
         this.type = type;
         // at index 0, there is no return
-        values = new ArrayList<>(Collections.singletonList(NaN.NaN));
+        values = new ArrayList<>(Collections.singletonList(NaN));
         calculate(trade);
 
         fillToTheEnd();
@@ -108,7 +108,7 @@ public class Returns implements Indicator<Num> {
         this.barSeries = barSeries;
         this.type = type;
         // at index 0, there is no return
-        values = new ArrayList<>(Collections.singletonList(NaN.NaN));
+        values = new ArrayList<>(Collections.singletonList(NaN));
         calculate(tradingRecord);
 
         fillToTheEnd();

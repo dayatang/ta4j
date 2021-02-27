@@ -27,7 +27,7 @@ import yang.yu.core.AnalysisCriterion;
 import yang.yu.core.BarSeries;
 import yang.yu.core.Trade;
 import yang.yu.core.TradingRecord;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.List;
 

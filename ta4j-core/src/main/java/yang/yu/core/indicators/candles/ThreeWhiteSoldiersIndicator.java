@@ -27,7 +27,7 @@ import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.SMAIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Three white soldiers indicator.

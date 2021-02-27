@@ -23,8 +23,6 @@
  */
 package yang.yu.core;
 
-import yang.yu.core.num.Num;
-
 public interface ExternalCriterionTest {
 
     /**

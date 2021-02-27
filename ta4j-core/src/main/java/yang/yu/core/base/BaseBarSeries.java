@@ -27,7 +27,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.num.PrecisionNum;
 
 import java.math.BigDecimal;
@@ -38,7 +38,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.function.Function;
 
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 /**
  * Base implementation of a {@link BarSeries}.

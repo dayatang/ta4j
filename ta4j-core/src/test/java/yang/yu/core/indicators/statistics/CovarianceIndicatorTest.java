@@ -32,7 +32,7 @@ import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.indicators.helpers.VolumeIndicator;
 import yang.yu.core.mocks.MockBar;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.time.ZonedDateTime;
 import java.util.function.Function;

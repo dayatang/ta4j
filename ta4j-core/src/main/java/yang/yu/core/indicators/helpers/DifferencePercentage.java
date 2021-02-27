@@ -24,9 +24,9 @@
 package yang.yu.core.indicators.helpers;
 
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
 
 /**
  * Difference Change Indicator.
@@ -65,7 +65,7 @@ public class DifferencePercentage extends CachedIndicator<Num> {
         Num value = indicator.getValue((index));
         if (lastNotification == null) {
             lastNotification = value;
-            return NaN.NaN;
+            return NaN;
         }
 
         Num changeFraction = value.dividedBy(lastNotification);

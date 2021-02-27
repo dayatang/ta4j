@@ -31,7 +31,7 @@ import yang.yu.core.base.BaseBarSeriesManager;
 import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.indicators.SMAIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.num.PrecisionNum;
 import yang.yu.core.trading.rules.OverIndicatorRule;
 import yang.yu.core.trading.rules.UnderIndicatorRule;

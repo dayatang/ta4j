@@ -25,7 +25,7 @@ package yang.yu.core.analysis.criteria;
 
 import org.junit.Test;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.AnalysisCriterion;
 import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.Order;

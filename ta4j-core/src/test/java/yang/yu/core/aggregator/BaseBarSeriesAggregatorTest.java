@@ -29,7 +29,7 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBar;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;

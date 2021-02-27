@@ -28,7 +28,7 @@ import yang.yu.core.indicators.helpers.HighPriceIndicator;
 import yang.yu.core.indicators.helpers.HighestValueIndicator;
 import yang.yu.core.indicators.helpers.LowPriceIndicator;
 import yang.yu.core.indicators.helpers.LowestValueIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * The "CHOP" index is used to indicate side-ways markets see <a href=

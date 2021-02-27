@@ -29,10 +29,9 @@ import org.junit.Test;
 import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.LinearTransactionCostModel;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
 
 import static org.junit.Assert.*;
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 import static yang.yu.core.TestUtils.assertNumEquals;
 
 public class OrderTest {

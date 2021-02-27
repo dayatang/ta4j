@@ -43,7 +43,7 @@ import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.CashFlow;
 import yang.yu.core.base.BaseBarSeriesManager;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import ta4jexamples.loaders.CsvTradesLoader;
 import ta4jexamples.strategies.MovingMomentumStrategy;
 

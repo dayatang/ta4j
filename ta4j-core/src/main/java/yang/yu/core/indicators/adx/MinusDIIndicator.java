@@ -28,7 +28,7 @@ import yang.yu.core.indicators.ATRIndicator;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.MMAIndicator;
 import yang.yu.core.indicators.helpers.MinusDMIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * -DI indicator. Part of the Directional Movement System

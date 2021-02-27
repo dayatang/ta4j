@@ -26,8 +26,8 @@ package yang.yu.core.indicators.ichimoku;
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
+import yang.yu.core.Num;
 
 /**
  * Ichimoku clouds: Chikou Span indicator
@@ -75,7 +75,7 @@ public class IchimokuChikouSpanIndicator extends CachedIndicator<Num> {
         if (spanIndex <= getBarSeries().getEndIndex()) {
             return closePriceIndicator.getValue(spanIndex);
         } else {
-            return NaN.NaN;
+            return NaN;
         }
     }
 

@@ -31,7 +31,7 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.helpers.DecimalTransformIndicator.DecimalTransformSimpleType;
 import yang.yu.core.indicators.helpers.DecimalTransformIndicator.DecimalTransformType;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.function.Function;
 

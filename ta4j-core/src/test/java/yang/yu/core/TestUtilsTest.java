@@ -34,7 +34,6 @@ import yang.yu.core.base.BaseBar;
 import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-import yang.yu.core.num.Num;
 
 import static yang.yu.core.TestUtils.*;
 

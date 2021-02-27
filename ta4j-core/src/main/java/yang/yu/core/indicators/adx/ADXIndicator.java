@@ -27,7 +27,7 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.MMAIndicator;
 import yang.yu.core.indicators.helpers.DXIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * ADX indicator. Part of the Directional Movement System.

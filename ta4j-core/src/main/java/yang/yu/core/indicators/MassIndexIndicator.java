@@ -28,7 +28,7 @@ import yang.yu.core.Indicator;
 import yang.yu.core.indicators.helpers.DifferenceIndicator;
 import yang.yu.core.indicators.helpers.HighPriceIndicator;
 import yang.yu.core.indicators.helpers.LowPriceIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Mass index indicator.

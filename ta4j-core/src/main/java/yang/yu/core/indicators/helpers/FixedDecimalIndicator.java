@@ -24,7 +24,7 @@
 package yang.yu.core.indicators.helpers;
 
 import yang.yu.core.BarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.math.BigDecimal;
 

@@ -25,9 +25,8 @@ package yang.yu.core.cost;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.*;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.Order;
 import yang.yu.core.Trade;
 

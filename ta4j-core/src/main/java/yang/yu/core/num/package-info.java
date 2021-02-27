@@ -22,11 +22,11 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 /**
- * {@link yang.yu.core.num.Num Num} interface and implementations of
+ * {@link yang.yu.core.Num Num} interface and implementations of
  * {@link yang.yu.core.num.NaN NaN}, {@link yang.yu.core.num.DoubleNum
  * DoubleNum} and {@link yang.yu.core.num.PrecisionNum PrecisionNum}
  *
- * The {@link yang.yu.core.num.Num Num interface} enables the use of different
+ * The {@link yang.yu.core.Num Num interface} enables the use of different
  * delegates (Double, {@link java.math.BigDecimal BigDecimal}, ...) for storage
  * and calculations in {@link yang.yu.core.BarSeries BarSeries},
  * {@link yang.yu.core.Bar Bars}, {@link yang.yu.core.Indicator Indicators}

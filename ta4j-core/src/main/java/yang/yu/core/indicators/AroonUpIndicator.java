@@ -27,9 +27,9 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.Indicator;
 import yang.yu.core.indicators.helpers.HighPriceIndicator;
 import yang.yu.core.indicators.helpers.HighestValueIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 /**
  * Aroon up indicator.

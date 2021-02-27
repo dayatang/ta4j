@@ -30,7 +30,7 @@ import java.util.function.Function;
 import org.junit.Test;
 import yang.yu.core.BarSeries;
 import yang.yu.core.ExternalIndicatorTest;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Testing the RWILowIndicator

@@ -28,7 +28,7 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.helpers.TypicalPriceIndicator;
 import yang.yu.core.indicators.helpers.VolumeIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * The volume-weighted average price (VWAP) Indicator.

@@ -27,7 +27,7 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.adx.MinusDIIndicator;
 import yang.yu.core.indicators.adx.PlusDIIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * DX indicator.

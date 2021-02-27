@@ -35,7 +35,7 @@ import org.junit.Test;
 import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.Indicator;
 import yang.yu.core.BarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * @author jtomkinson

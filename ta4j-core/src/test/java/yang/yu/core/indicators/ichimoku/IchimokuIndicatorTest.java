@@ -31,8 +31,8 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBar;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
+import yang.yu.core.Num;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -138,10 +138,10 @@ public class IchimokuIndicatorTest extends AbstractIndicatorTest<Indicator<Num>,
         assertNumEquals(data.getBar(12 + chikouSpanTimeDelay).getClosePrice(), chikouSpan.getValue(12));
         assertNumEquals(data.getBar(13 + chikouSpanTimeDelay).getClosePrice(), chikouSpan.getValue(13));
         assertNumEquals(data.getBar(14 + chikouSpanTimeDelay).getClosePrice(), chikouSpan.getValue(14));
-        assertNumEquals(NaN.NaN, chikouSpan.getValue(15));
-        assertNumEquals(NaN.NaN, chikouSpan.getValue(16));
-        assertNumEquals(NaN.NaN, chikouSpan.getValue(17));
-        assertNumEquals(NaN.NaN, chikouSpan.getValue(18));
-        assertNumEquals(NaN.NaN, chikouSpan.getValue(19));
+        assertNumEquals(NaN, chikouSpan.getValue(15));
+        assertNumEquals(NaN, chikouSpan.getValue(16));
+        assertNumEquals(NaN, chikouSpan.getValue(17));
+        assertNumEquals(NaN, chikouSpan.getValue(18));
+        assertNumEquals(NaN, chikouSpan.getValue(19));
     }
 }

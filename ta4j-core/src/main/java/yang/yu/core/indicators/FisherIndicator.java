@@ -30,7 +30,7 @@ import yang.yu.core.indicators.helpers.HighestValueIndicator;
 import yang.yu.core.indicators.helpers.LowPriceIndicator;
 import yang.yu.core.indicators.helpers.LowestValueIndicator;
 import yang.yu.core.indicators.helpers.MedianPriceIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * The Fisher Indicator.

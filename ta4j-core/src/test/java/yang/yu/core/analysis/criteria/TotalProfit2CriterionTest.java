@@ -24,7 +24,7 @@
 package yang.yu.core.analysis.criteria;
 
 import org.junit.Test;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.function.Function;
 

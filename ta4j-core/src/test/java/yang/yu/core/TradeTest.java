@@ -27,7 +27,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
 import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.LinearBorrowingCostModel;
 import yang.yu.core.cost.LinearTransactionCostModel;
@@ -37,7 +36,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 import static yang.yu.core.TestUtils.assertNumEquals;
 
 public class TradeTest {

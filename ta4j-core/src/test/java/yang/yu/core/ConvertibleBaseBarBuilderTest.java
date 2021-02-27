@@ -29,7 +29,6 @@ import org.junit.runners.Parameterized;
 import yang.yu.core.base.BaseBar;
 import yang.yu.core.base.ConvertibleBaseBarBuilder;
 import yang.yu.core.indicators.AbstractIndicatorTest;
-import yang.yu.core.num.Num;
 import yang.yu.core.num.PrecisionNum;
 
 import java.math.BigDecimal;

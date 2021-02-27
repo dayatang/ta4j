@@ -32,8 +32,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.mocks.MockIndicator;
 import yang.yu.core.mocks.MockTradingRecord;
-import static yang.yu.core.num.NaN.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
 
 import java.io.IOException;
 import java.io.InputStream;

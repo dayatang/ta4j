@@ -25,7 +25,7 @@ package yang.yu.core.base;
 
 import yang.yu.core.Bar;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.num.PrecisionNum;
 
 import java.util.ArrayList;

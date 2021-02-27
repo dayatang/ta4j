@@ -27,7 +27,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import yang.yu.core.BarSeries;
 import yang.yu.core.Indicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Abstract {@link Indicator indicator}.

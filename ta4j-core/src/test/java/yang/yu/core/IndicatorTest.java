@@ -29,7 +29,6 @@ import java.util.List;
 import org.junit.Test;
 import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.mocks.MockIndicator;
-import yang.yu.core.num.Num;
 
 import static org.junit.Assert.assertTrue;
 

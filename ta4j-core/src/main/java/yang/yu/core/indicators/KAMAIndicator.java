@@ -24,7 +24,7 @@
 package yang.yu.core.indicators;
 
 import yang.yu.core.Indicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * The Kaufman's Adaptive Moving Average (KAMA) Indicator.

@@ -26,7 +26,7 @@ package yang.yu.core.indicators.volume;
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.EMAIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Chaikin Oscillator.

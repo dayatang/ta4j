@@ -25,11 +25,11 @@ package yang.yu.core.indicators.pivotpoints;
 
 import yang.yu.core.Bar;
 import yang.yu.core.indicators.RecursiveCachedIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.List;
 
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 /**
  * Pivot Reversal Indicator.

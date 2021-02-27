@@ -25,7 +25,7 @@ package yang.yu.core.indicators.volume;
 
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.CachedIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Rate of change of volume (ROCVIndicator) indicator. Aka. Momentum of Volume

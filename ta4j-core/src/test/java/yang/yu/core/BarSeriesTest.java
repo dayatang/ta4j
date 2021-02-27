@@ -37,7 +37,6 @@ import yang.yu.core.indicators.helpers.LowPriceIndicator;
 import yang.yu.core.indicators.helpers.PreviousValueIndicator;
 import yang.yu.core.mocks.MockBar;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
 import yang.yu.core.num.PrecisionNum;
 import yang.yu.core.trading.rules.FixedRule;
 

@@ -28,7 +28,7 @@ import yang.yu.core.Indicator;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.SMAIndicator;
 import yang.yu.core.indicators.helpers.AbsoluteIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Doji indicator.

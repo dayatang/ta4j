@@ -24,8 +24,8 @@
 package yang.yu.core.indicators;
 
 import yang.yu.core.BarSeries;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
+import yang.yu.core.Num;
 
 /**
  * The RandomWalkIndexHighIndicator.
@@ -52,7 +52,7 @@ public class RWIHighIndicator extends CachedIndicator<Num> {
     @Override
     protected Num calculate(int index) {
         if (index - barCount + 1 < getBarSeries().getBeginIndex()) {
-            return NaN.NaN;
+            return NaN;
         }
 
         Num maxRWIH = numOf(0);

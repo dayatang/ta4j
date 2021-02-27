@@ -32,7 +32,7 @@ import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.ZeroCostModel;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * A manager for {@link BarSeries} objects.

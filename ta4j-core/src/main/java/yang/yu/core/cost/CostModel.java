@@ -24,7 +24,7 @@
 package yang.yu.core.cost;
 
 import yang.yu.core.Trade;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.io.Serializable;
 

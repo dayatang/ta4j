@@ -24,12 +24,11 @@
 package yang.yu.core;
 
 import yang.yu.core.Order.OrderType;
-import yang.yu.core.num.Num;
 
 import java.io.Serializable;
 import java.util.List;
 
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 /**
  * A history/record of a trading session.

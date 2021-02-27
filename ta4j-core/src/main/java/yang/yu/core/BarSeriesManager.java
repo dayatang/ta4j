@@ -24,7 +24,6 @@
 package yang.yu.core;
 
 import yang.yu.core.Order.OrderType;
-import yang.yu.core.num.Num;
 
 /**
  * A manager for {@link BarSeries} objects.

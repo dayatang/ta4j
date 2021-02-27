@@ -24,7 +24,7 @@
 package yang.yu.core.mocks;
 
 import yang.yu.core.base.BaseBar;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.time.Duration;
 import java.time.ZonedDateTime;

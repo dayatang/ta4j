@@ -25,7 +25,6 @@ package yang.yu.core;
 
 import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.ZeroCostModel;
-import yang.yu.core.num.Num;
 
 import java.io.Serializable;
 import java.util.Objects;

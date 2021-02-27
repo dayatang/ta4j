@@ -27,7 +27,6 @@ import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.base.BaseBar;
 import yang.yu.core.indicators.AbstractIndicatorTest;
-import yang.yu.core.num.Num;
 
 import java.time.Duration;
 import java.time.ZoneId;

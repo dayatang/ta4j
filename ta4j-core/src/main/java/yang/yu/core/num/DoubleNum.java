@@ -23,9 +23,11 @@
  */
 package yang.yu.core.num;
 
+import yang.yu.core.Num;
+
 import java.util.function.Function;
 
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 /**
  * Representation of Double. High performance, lower precision.

@@ -50,7 +50,7 @@ import yang.yu.core.TradingRecord;
 import yang.yu.core.indicators.helpers.PriceIndicator;
 import yang.yu.core.indicators.helpers.HighestValueIndicator;
 import yang.yu.core.indicators.helpers.LowestValueIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * A trailing stop-loss rule

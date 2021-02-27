@@ -25,7 +25,7 @@ package yang.yu.core.mocks;
 
 import yang.yu.core.Bar;
 import yang.yu.core.base.BaseBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.time.ZonedDateTime;
 import java.util.ArrayList;

@@ -26,7 +26,7 @@ package yang.yu.core.cost;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

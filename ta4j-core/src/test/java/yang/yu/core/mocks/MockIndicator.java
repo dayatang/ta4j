@@ -25,7 +25,7 @@ package yang.yu.core.mocks;
 
 import yang.yu.core.BarSeries;
 import yang.yu.core.Indicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.List;
 

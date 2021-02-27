@@ -26,7 +26,7 @@ package yang.yu.core.indicators;
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.helpers.HighPriceIndicator;
 import yang.yu.core.indicators.helpers.HighestValueIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * The Chandelier Exit (long) Indicator.

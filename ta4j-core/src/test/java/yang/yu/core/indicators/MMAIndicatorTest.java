@@ -26,11 +26,10 @@ package yang.yu.core.indicators;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.*;
-import yang.yu.core.*;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.mocks.MockBar;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.ArrayList;
 import java.util.List;

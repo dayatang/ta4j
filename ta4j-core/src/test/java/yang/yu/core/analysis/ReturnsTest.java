@@ -29,8 +29,8 @@ import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBarSeries;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
+import yang.yu.core.Num;
 import yang.yu.core.num.PrecisionNum;
 
 import java.util.function.Function;
@@ -60,7 +60,7 @@ public class ReturnsTest extends AbstractIndicatorTest<Indicator<Num>, Num> {
         TradingRecord tradingRecord = new BaseTradingRecord(Order.buyAt(0, sampleBarSeries),
                 Order.sellAt(1, sampleBarSeries));
         Returns return1 = new Returns(sampleBarSeries, tradingRecord, Returns.ReturnType.ARITHMETIC);
-        assertNumEquals(NaN.NaN, return1.getValue(0));
+        assertNumEquals(NaN, return1.getValue(0));
         assertNumEquals(1.0, return1.getValue(1));
     }
 
@@ -73,7 +73,7 @@ public class ReturnsTest extends AbstractIndicatorTest<Indicator<Num>, Num> {
 
         Returns strategyReturns = new Returns(sampleBarSeries, tradingRecord, Returns.ReturnType.ARITHMETIC);
 
-        assertNumEquals(NaN.NaN, strategyReturns.getValue(0));
+        assertNumEquals(NaN, strategyReturns.getValue(0));
         assertNumEquals(-0.5, strategyReturns.getValue(1));
         assertNumEquals(0, strategyReturns.getValue(2));
         assertNumEquals(0, strategyReturns.getValue(3));
@@ -90,7 +90,7 @@ public class ReturnsTest extends AbstractIndicatorTest<Indicator<Num>, Num> {
 
         Returns returns = new Returns(sampleBarSeries, tradingRecord, Returns.ReturnType.LOG);
 
-        assertNumEquals(NaN.NaN, returns.getValue(0));
+        assertNumEquals(NaN, returns.getValue(0));
         assertNumEquals(0, returns.getValue(1));
         assertNumEquals(0, returns.getValue(2));
         assertNumEquals(-0.28768207245178085, returns.getValue(3));
@@ -109,7 +109,7 @@ public class ReturnsTest extends AbstractIndicatorTest<Indicator<Num>, Num> {
     public void returnsWithNoTrades() {
         BarSeries sampleBarSeries = new MockBarSeries(numFunction, 3d, 2d, 5d, 4d, 7d, 6d, 7d, 8d, 5d, 6d);
         Returns returns = new Returns(sampleBarSeries, new BaseTradingRecord(), Returns.ReturnType.LOG);
-        assertNumEquals(NaN.NaN, returns.getValue(0));
+        assertNumEquals(NaN, returns.getValue(0));
         assertNumEquals(0, returns.getValue(4));
         assertNumEquals(0, returns.getValue(7));
         assertNumEquals(0, returns.getValue(9));

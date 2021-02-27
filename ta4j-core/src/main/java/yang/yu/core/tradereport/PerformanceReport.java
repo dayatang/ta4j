@@ -23,7 +23,7 @@
  */
 package yang.yu.core.tradereport;
 
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * This class represents report which contains performance statistics

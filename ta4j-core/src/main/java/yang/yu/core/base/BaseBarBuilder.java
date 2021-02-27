@@ -23,7 +23,7 @@
  */
 package yang.yu.core.base;
 
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.time.Duration;
 import java.time.ZonedDateTime;

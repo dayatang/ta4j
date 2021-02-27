@@ -28,7 +28,7 @@ import yang.yu.core.Trade;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.ZeroCostModel;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.ArrayList;
 import java.util.List;

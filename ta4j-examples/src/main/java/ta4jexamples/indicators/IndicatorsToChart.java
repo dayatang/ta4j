@@ -41,7 +41,7 @@ import yang.yu.core.indicators.bollinger.BollingerBandsMiddleIndicator;
 import yang.yu.core.indicators.bollinger.BollingerBandsUpperIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.indicators.statistics.StandardDeviationIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import ta4jexamples.loaders.CsvBarsLoader;
 
 import java.text.SimpleDateFormat;

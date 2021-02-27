@@ -28,7 +28,7 @@ import org.junit.Test;
 import yang.yu.core.base.BaseTradingRecord;
 
 import static org.junit.Assert.*;
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 public class TradingRecordTest {
 

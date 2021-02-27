@@ -27,7 +27,7 @@ import yang.yu.core.BarSeries;
 import yang.yu.core.ExternalCriterionTest;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.XlsTestsUtils;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.function.Function;
 

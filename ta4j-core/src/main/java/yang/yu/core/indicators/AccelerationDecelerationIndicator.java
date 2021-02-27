@@ -25,7 +25,7 @@ package yang.yu.core.indicators;
 
 import yang.yu.core.BarSeries;
 import yang.yu.core.indicators.helpers.MedianPriceIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Acceleration-deceleration indicator.

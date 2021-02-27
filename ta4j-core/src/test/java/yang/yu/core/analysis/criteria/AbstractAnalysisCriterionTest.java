@@ -30,7 +30,7 @@ import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.Strategy;
 import yang.yu.core.BarSeriesManager;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.trading.rules.BooleanRule;
 import yang.yu.core.trading.rules.FixedRule;
 

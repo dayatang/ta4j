@@ -25,9 +25,9 @@ package yang.yu.core.indicators.statistics;
 
 import yang.yu.core.Indicator;
 import yang.yu.core.indicators.CachedIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 /**
  * Simple linear regression indicator.

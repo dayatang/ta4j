@@ -29,7 +29,7 @@ import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.criteria.NumberOfBreakEvenTradesCriterion;
 import yang.yu.core.analysis.criteria.NumberOfLosingTradesCriterion;
 import yang.yu.core.analysis.criteria.NumberOfWinningTradesCriterion;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * This class generates TradeStatsReport basis on provided trading report and

@@ -25,8 +25,7 @@ package yang.yu.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import yang.yu.core.num.NaN;
-import yang.yu.core.num.Num;
+import static yang.yu.core.Num.NaN;
 import yang.yu.core.num.PrecisionNum;
 
 import java.math.BigDecimal;

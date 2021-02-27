@@ -24,6 +24,7 @@
 package yang.yu.core.num;
 
 import org.junit.Test;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 
 import java.io.InputStream;
@@ -39,7 +40,7 @@ import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static yang.yu.core.TestUtils.assertNumEquals;
 import static yang.yu.core.TestUtils.assertNumNotEquals;
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 public class NumTest extends AbstractIndicatorTest<Object, Num> {
 

@@ -28,7 +28,7 @@ import org.junit.Test;
 import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.BarSeries;
 import yang.yu.core.num.PrecisionNum;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.util.function.Function;
 

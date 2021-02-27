@@ -35,7 +35,7 @@ import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.indicators.helpers.DifferenceIndicator;
 import yang.yu.core.indicators.helpers.HighPriceIndicator;
 import yang.yu.core.indicators.helpers.LowPriceIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 import yang.yu.core.num.PrecisionNum;
 import yang.yu.core.num.DoubleNum;
 import yang.yu.core.trading.rules.IsEqualRule;

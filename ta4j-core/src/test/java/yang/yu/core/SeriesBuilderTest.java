@@ -27,7 +27,6 @@ import org.junit.Test;
 import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.num.Num;
 import yang.yu.core.num.PrecisionNum;
 
 import java.time.ZonedDateTime;

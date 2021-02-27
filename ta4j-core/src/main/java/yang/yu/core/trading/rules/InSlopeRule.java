@@ -27,9 +27,9 @@ import yang.yu.core.Indicator;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.indicators.helpers.DifferenceIndicator;
 import yang.yu.core.indicators.helpers.PreviousValueIndicator;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 /**
  * Indicator-in-slope rule.

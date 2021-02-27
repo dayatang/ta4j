@@ -28,13 +28,13 @@ import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.BarSeries;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 import java.time.ZonedDateTime;
 
 import static junit.framework.TestCase.assertEquals;
 import static yang.yu.core.TestUtils.assertNumEquals;
-import static yang.yu.core.num.NaN.NaN;
+import static yang.yu.core.Num.NaN;
 
 public class AroonUpIndicatorTest {
 

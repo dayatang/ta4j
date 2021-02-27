@@ -25,7 +25,7 @@ package yang.yu.core.trading.rules;
 
 import yang.yu.core.Indicator;
 import yang.yu.core.TradingRecord;
-import yang.yu.core.num.Num;
+import yang.yu.core.Num;
 
 /**
  * Indicator-falling-indicator rule.
