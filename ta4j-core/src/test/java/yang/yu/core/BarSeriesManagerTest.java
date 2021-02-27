@@ -78,7 +78,7 @@ public class BarSeriesManagerTest extends AbstractIndicatorTest<BarSeries, Num> 
     @Test
     public void runOnWholeSeries() {
         BarSeries series = new MockBarSeries(numFunction, 20d, 40d, 60d, 10d, 30d, 50d, 0d, 20d, 40d);
-        manager.setBarSeries(series);
+        manager = new BaseBarSeriesManager(series);
         List<Trade> allTrades = manager.run(strategy).getTrades();
         assertEquals(2, allTrades.size());
     }
@@ -86,7 +86,7 @@ public class BarSeriesManagerTest extends AbstractIndicatorTest<BarSeries, Num> 
     @Test
     public void runOnWholeSeriesWithAmount() {
         BarSeries series = new MockBarSeries(numFunction, 20d, 40d, 60d, 10d, 30d, 50d, 0d, 20d, 40d);
-        manager.setBarSeries(series);
+        manager = new BaseBarSeriesManager(series);
         List<Trade> allTrades = manager.run(strategy, Order.OrderType.BUY, HUNDRED).getTrades();
 
         assertEquals(2, allTrades.size());
@@ -152,7 +152,7 @@ public class BarSeriesManagerTest extends AbstractIndicatorTest<BarSeries, Num> 
                         dateTime.withYear(2001), dateTime.withYear(2002), dateTime.withYear(2002),
                         dateTime.withYear(2002), dateTime.withYear(2003), dateTime.withYear(2004),
                         dateTime.withYear(2005) });
-        manager.setBarSeries(series);
+        manager = new BaseBarSeriesManager(series);
 
         Strategy aStrategy = new BaseStrategy(new FixedRule(0, 3, 5, 7), new FixedRule(2, 4, 6, 9));
 

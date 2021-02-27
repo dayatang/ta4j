@@ -40,11 +40,6 @@ public interface BarSeriesManager {
     BarSeries getBarSeries();
 
     /**
-     * @param barSeries the bar series to be managed
-     */
-    void setBarSeries(BarSeries barSeries);
-
-    /**
      * Runs the provided strategy over the managed series.
      *
      * Opens the trades with {@link OrderType} BUY order.
