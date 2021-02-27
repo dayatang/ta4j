@@ -278,12 +278,7 @@ public class BaseBarSeries implements BarSeries {
      * @return false if a Num implementation of at least one Bar does not fit.
      */
     private boolean checkBars(List<Bar> bars) {
-        for (Bar bar : bars) {
-            if (!checkBar(bar)) {
-                return false;
-            }
-        }
-        return true;
+        return bars.stream().allMatch(this::checkBar);
     }
 
     /**

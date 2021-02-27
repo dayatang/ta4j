@@ -53,14 +53,14 @@ public class BearishEngulfingIndicator extends CachedIndicator<Boolean> {
         }
         Bar prevBar = getBarSeries().getBar(index - 1);
         Bar currBar = getBarSeries().getBar(index);
-        if (prevBar.isBullish() && currBar.isBearish()) {
-            final Num prevOpenPrice = prevBar.getOpenPrice();
-            final Num prevClosePrice = prevBar.getClosePrice();
-            final Num currOpenPrice = currBar.getOpenPrice();
-            final Num currClosePrice = currBar.getClosePrice();
-            return currOpenPrice.isGreaterThan(prevOpenPrice) && currOpenPrice.isGreaterThan(prevClosePrice)
-                    && currClosePrice.isLessThan(prevOpenPrice) && currClosePrice.isLessThan(prevClosePrice);
+        if (!(prevBar.isBullish() && currBar.isBearish())) {
+            return false;
         }
-        return false;
+        final Num prevOpenPrice = prevBar.getOpenPrice();
+        final Num prevClosePrice = prevBar.getClosePrice();
+        final Num currOpenPrice = currBar.getOpenPrice();
+        final Num currClosePrice = currBar.getClosePrice();
+        return currOpenPrice.isGreaterThan(prevOpenPrice) && currOpenPrice.isGreaterThan(prevClosePrice)
+                && currClosePrice.isLessThan(prevOpenPrice) && currClosePrice.isLessThan(prevClosePrice);
     }
 }

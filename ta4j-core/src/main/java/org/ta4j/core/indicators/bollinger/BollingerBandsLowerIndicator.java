@@ -29,7 +29,8 @@ import org.ta4j.core.num.Num;
 
 /**
  * Buy - Occurs when the price line crosses from below to above the Lower
- * Bollinger Band. Sell - Occurs when the price line crosses from above to below
+ * Bollinger Band.
+ * Sell - Occurs when the price line crosses from above to below
  * the Upper Bollinger Band.
  * 
  */
