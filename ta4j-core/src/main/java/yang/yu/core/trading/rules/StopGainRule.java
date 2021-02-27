@@ -23,10 +23,10 @@
  */
 package yang.yu.core.trading.rules;
 
+import yang.yu.core.Num;
 import yang.yu.core.Trade;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-import yang.yu.core.Num;
 
 /**
  * A stop-gain rule.

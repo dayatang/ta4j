@@ -24,12 +24,12 @@
 package yang.yu.core.tradereport;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.criteria.NumberOfBreakEvenTradesCriterion;
 import yang.yu.core.analysis.criteria.NumberOfLosingTradesCriterion;
 import yang.yu.core.analysis.criteria.NumberOfWinningTradesCriterion;
-import yang.yu.core.Num;
 
 /**
  * This class generates TradeStatsReport basis on provided trading report and

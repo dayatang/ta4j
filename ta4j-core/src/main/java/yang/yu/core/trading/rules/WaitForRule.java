@@ -25,8 +25,8 @@ package yang.yu.core.trading.rules;
 
 import yang.yu.core.Bar;
 import yang.yu.core.Order;
-import yang.yu.core.TradingRecord;
 import yang.yu.core.Rule;
+import yang.yu.core.TradingRecord;
 
 import static yang.yu.core.Order.OrderType;
 

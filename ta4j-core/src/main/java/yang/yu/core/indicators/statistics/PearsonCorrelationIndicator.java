@@ -24,8 +24,8 @@
 package yang.yu.core.indicators.statistics;
 
 import yang.yu.core.Indicator;
-import yang.yu.core.indicators.RecursiveCachedIndicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.RecursiveCachedIndicator;
 
 import static yang.yu.core.Num.NaN;
 

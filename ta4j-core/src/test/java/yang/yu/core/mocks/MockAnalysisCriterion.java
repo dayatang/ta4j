@@ -23,11 +23,7 @@
  */
 package yang.yu.core.mocks;
 
-import yang.yu.core.AnalysisCriterion;
-import yang.yu.core.BarSeries;
-import yang.yu.core.Trade;
-import yang.yu.core.TradingRecord;
-import yang.yu.core.Num;
+import yang.yu.core.*;
 
 import java.util.List;
 

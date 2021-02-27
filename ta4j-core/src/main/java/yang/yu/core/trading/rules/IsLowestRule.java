@@ -24,9 +24,9 @@
 package yang.yu.core.trading.rules;
 
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.indicators.helpers.LowestValueIndicator;
-import yang.yu.core.Num;
 
 /**
  * Indicator-lowest-indicator rule.

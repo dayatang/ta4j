@@ -29,13 +29,12 @@ import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBarSeries;
 import yang.yu.core.num.DoubleNum;
-import static yang.yu.core.Num.NaN;
-import yang.yu.core.Num;
 import yang.yu.core.num.PrecisionNum;
 
 import java.util.function.Function;
 
 import static org.junit.Assert.assertEquals;
+import static yang.yu.core.Num.NaN;
 import static yang.yu.core.TestUtils.assertNumEquals;
 
 public class ReturnsTest extends AbstractIndicatorTest<Indicator<Num>, Num> {

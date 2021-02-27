@@ -23,11 +23,7 @@
  */
 package yang.yu.core.analysis.criteria;
 
-import yang.yu.core.BarSeries;
-import yang.yu.core.ExternalCriterionTest;
-import yang.yu.core.TradingRecord;
-import yang.yu.core.XlsTestsUtils;
-import yang.yu.core.Num;
+import yang.yu.core.*;
 
 import java.util.function.Function;
 

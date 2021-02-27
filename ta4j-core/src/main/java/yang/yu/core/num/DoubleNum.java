@@ -27,8 +27,6 @@ import yang.yu.core.Num;
 
 import java.util.function.Function;
 
-import static yang.yu.core.Num.NaN;
-
 /**
  * Representation of Double. High performance, lower precision.
  *

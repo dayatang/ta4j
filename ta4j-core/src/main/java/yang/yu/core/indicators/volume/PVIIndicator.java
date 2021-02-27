@@ -25,8 +25,8 @@ package yang.yu.core.indicators.volume;
 
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
-import yang.yu.core.indicators.RecursiveCachedIndicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.RecursiveCachedIndicator;
 
 /**
  * Positive Volume Index (PVI) indicator.

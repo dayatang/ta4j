@@ -24,10 +24,10 @@
 package yang.yu.core.analysis.criteria;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.Trade;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.CashFlow;
-import yang.yu.core.Num;
 
 /**
  * Maximum drawdown criterion.

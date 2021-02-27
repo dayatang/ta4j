@@ -26,6 +26,7 @@ package yang.yu.core.indicators.helpers;
 import yang.yu.core.Indicator;
 import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
+
 import static yang.yu.core.Num.NaN;
 
 /**

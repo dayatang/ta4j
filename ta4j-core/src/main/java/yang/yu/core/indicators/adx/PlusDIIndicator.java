@@ -24,11 +24,11 @@
 package yang.yu.core.indicators.adx;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.ATRIndicator;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.MMAIndicator;
 import yang.yu.core.indicators.helpers.PlusDMIndicator;
-import yang.yu.core.Num;
 
 /**
  * +DI indicator. Part of the Directional Movement System

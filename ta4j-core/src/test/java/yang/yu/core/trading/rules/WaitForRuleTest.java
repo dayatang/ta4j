@@ -25,9 +25,9 @@ package yang.yu.core.trading.rules;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.Order;
 import yang.yu.core.TradingRecord;
+import yang.yu.core.base.BaseTradingRecord;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

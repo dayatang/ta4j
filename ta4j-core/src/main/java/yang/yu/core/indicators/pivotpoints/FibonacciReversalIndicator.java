@@ -24,8 +24,8 @@
 package yang.yu.core.indicators.pivotpoints;
 
 import yang.yu.core.Bar;
-import yang.yu.core.indicators.RecursiveCachedIndicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.RecursiveCachedIndicator;
 
 import java.util.List;
 

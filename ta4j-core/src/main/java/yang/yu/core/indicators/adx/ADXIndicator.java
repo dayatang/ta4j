@@ -24,10 +24,10 @@
 package yang.yu.core.indicators.adx;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.MMAIndicator;
 import yang.yu.core.indicators.helpers.DXIndicator;
-import yang.yu.core.Num;
 
 /**
  * ADX indicator. Part of the Directional Movement System.

@@ -24,10 +24,10 @@
 package yang.yu.core.indicators.bollinger;
 
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.SMAIndicator;
 import yang.yu.core.indicators.statistics.StandardDeviationIndicator;
-import yang.yu.core.Num;
 
 /**
  * %B indicator.

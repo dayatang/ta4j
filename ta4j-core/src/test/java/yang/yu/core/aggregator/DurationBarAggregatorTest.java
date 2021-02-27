@@ -26,10 +26,10 @@ package yang.yu.core.aggregator;
 import org.junit.Test;
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.TestUtils;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBar;
-import yang.yu.core.Num;
 
 import java.time.Duration;
 import java.time.ZoneId;

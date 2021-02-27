@@ -24,9 +24,9 @@
 package yang.yu.core.indicators.statistics;
 
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.SMAIndicator;
-import yang.yu.core.Num;
 
 /**
  * Sigma-Indicator (also called, "z-score" or "standard score").

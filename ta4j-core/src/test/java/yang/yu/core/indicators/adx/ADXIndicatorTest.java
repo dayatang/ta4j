@@ -24,13 +24,9 @@
 package yang.yu.core.indicators.adx;
 
 import org.junit.Test;
-import yang.yu.core.ExternalIndicatorTest;
-import yang.yu.core.Indicator;
-import yang.yu.core.TestUtils;
-import yang.yu.core.BarSeries;
+import yang.yu.core.*;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.XLSIndicatorTest;
-import yang.yu.core.Num;
 
 import java.util.function.Function;
 

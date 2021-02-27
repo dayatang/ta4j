@@ -24,8 +24,8 @@
 package yang.yu.core.aggregator;
 
 import yang.yu.core.Bar;
-import yang.yu.core.base.BaseBar;
 import yang.yu.core.Num;
+import yang.yu.core.base.BaseBar;
 
 import java.time.Duration;
 import java.time.ZonedDateTime;

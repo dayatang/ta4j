@@ -24,8 +24,9 @@
 package yang.yu.core.indicators;
 
 import yang.yu.core.BarSeries;
-import static yang.yu.core.Num.NaN;
 import yang.yu.core.Num;
+
+import static yang.yu.core.Num.NaN;
 
 /**
  * The Class RandomWalkIndexLowIndicator.

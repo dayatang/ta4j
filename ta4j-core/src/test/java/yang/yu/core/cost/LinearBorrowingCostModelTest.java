@@ -25,10 +25,10 @@ package yang.yu.core.cost;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.num.DoubleNum;
 import yang.yu.core.Num;
 import yang.yu.core.Order;
 import yang.yu.core.Trade;
+import yang.yu.core.num.DoubleNum;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

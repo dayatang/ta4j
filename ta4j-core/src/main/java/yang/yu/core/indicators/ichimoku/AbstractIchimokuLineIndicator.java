@@ -23,14 +23,14 @@
  */
 package yang.yu.core.indicators.ichimoku;
 
-import yang.yu.core.Indicator;
 import yang.yu.core.BarSeries;
-import yang.yu.core.indicators.CachedIndicator;
-import yang.yu.core.indicators.helpers.HighestValueIndicator;
-import yang.yu.core.indicators.helpers.LowestValueIndicator;
-import yang.yu.core.indicators.helpers.HighPriceIndicator;
-import yang.yu.core.indicators.helpers.LowPriceIndicator;
+import yang.yu.core.Indicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.CachedIndicator;
+import yang.yu.core.indicators.helpers.HighPriceIndicator;
+import yang.yu.core.indicators.helpers.HighestValueIndicator;
+import yang.yu.core.indicators.helpers.LowPriceIndicator;
+import yang.yu.core.indicators.helpers.LowestValueIndicator;
 
 /**
  * An abstract class for Ichimoku clouds indicators.

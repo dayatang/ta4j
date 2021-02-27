@@ -25,7 +25,6 @@ package yang.yu.core.analysis.criteria;
 
 import yang.yu.core.*;
 import yang.yu.core.base.BaseTradingRecord;
-import yang.yu.core.Num;
 
 /**
  * Versus "buy and hold" criterion.

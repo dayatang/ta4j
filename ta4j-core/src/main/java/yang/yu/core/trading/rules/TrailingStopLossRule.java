@@ -45,12 +45,12 @@
  */
 package yang.yu.core.trading.rules;
 
+import yang.yu.core.Num;
 import yang.yu.core.Trade;
 import yang.yu.core.TradingRecord;
-import yang.yu.core.indicators.helpers.PriceIndicator;
 import yang.yu.core.indicators.helpers.HighestValueIndicator;
 import yang.yu.core.indicators.helpers.LowestValueIndicator;
-import yang.yu.core.Num;
+import yang.yu.core.indicators.helpers.PriceIndicator;
 
 /**
  * A trailing stop-loss rule

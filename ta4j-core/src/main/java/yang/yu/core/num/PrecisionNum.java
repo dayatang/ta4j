@@ -58,8 +58,6 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.function.Function;
 
-import static yang.yu.core.Num.NaN;
-
 /**
  * Representation of arbitrary precision BigDecimal. A {@code Num} consists of a
  * {@code BigDecimal} with arbitrary {@link MathContext} (precision and rounding

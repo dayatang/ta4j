@@ -23,8 +23,8 @@
  */
 package yang.yu.core.indicators.bollinger;
 
-import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.CachedIndicator;
 
 /**
  * Bollinger BandWidth indicator.

@@ -23,9 +23,9 @@
  */
 package yang.yu.core.indicators.keltner;
 
+import yang.yu.core.Num;
 import yang.yu.core.indicators.ATRIndicator;
 import yang.yu.core.indicators.CachedIndicator;
-import yang.yu.core.Num;
 
 /**
  * Keltner Channel (lower line) indicator

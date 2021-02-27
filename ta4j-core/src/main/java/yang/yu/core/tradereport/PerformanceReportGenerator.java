@@ -24,13 +24,13 @@
 package yang.yu.core.tradereport;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.criteria.ProfitLossCriterion;
 import yang.yu.core.analysis.criteria.ProfitLossPercentageCriterion;
 import yang.yu.core.analysis.criteria.TotalLossCriterion;
 import yang.yu.core.analysis.criteria.TotalProfit2Criterion;
-import yang.yu.core.Num;
 
 /**
  * This class generates PerformanceReport basis on provided trading report and

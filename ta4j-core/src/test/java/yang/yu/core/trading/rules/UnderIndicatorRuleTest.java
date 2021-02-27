@@ -25,11 +25,11 @@ package yang.yu.core.trading.rules;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.base.BaseBarSeries;
-import yang.yu.core.Indicator;
 import yang.yu.core.BarSeries;
-import yang.yu.core.indicators.helpers.FixedDecimalIndicator;
+import yang.yu.core.Indicator;
 import yang.yu.core.Num;
+import yang.yu.core.base.BaseBarSeries;
+import yang.yu.core.indicators.helpers.FixedDecimalIndicator;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

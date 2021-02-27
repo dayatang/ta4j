@@ -24,8 +24,8 @@
 package yang.yu.core.indicators;
 
 import yang.yu.core.Indicator;
-import yang.yu.core.indicators.helpers.SumIndicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.helpers.SumIndicator;
 
 /**
  * Coppock Curve indicator.

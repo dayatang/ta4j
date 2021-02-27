@@ -23,9 +23,9 @@
  */
 package yang.yu.core.cost;
 
+import yang.yu.core.Num;
 import yang.yu.core.Order;
 import yang.yu.core.Trade;
-import yang.yu.core.Num;
 
 public class LinearBorrowingCostModel implements CostModel {
 

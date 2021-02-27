@@ -25,8 +25,8 @@ package yang.yu.core.indicators.helpers;
 
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
-import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.CachedIndicator;
 
 /**
  * +DM indicator.

@@ -24,9 +24,9 @@
 package yang.yu.core.indicators.volume;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.RecursiveCachedIndicator;
 import yang.yu.core.indicators.helpers.CloseLocationValueIndicator;
-import yang.yu.core.Num;
 
 /**
  * Accumulation-distribution indicator.

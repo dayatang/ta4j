@@ -23,6 +23,16 @@
  */
 package yang.yu.core.num;
 
+import org.junit.Test;
+import yang.yu.core.Bar;
+import yang.yu.core.BarSeries;
+import yang.yu.core.Indicator;
+import yang.yu.core.Num;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.BaseBarSeriesBuilder;
+import yang.yu.core.indicators.RSIIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+
 import java.math.BigDecimal;
 import java.time.Duration;
 import java.time.ZonedDateTime;
@@ -30,18 +40,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
-import org.junit.Test;
-import yang.yu.core.*;
-import yang.yu.core.base.BaseBar;
-import yang.yu.core.base.BaseBarSeriesBuilder;
-import yang.yu.core.indicators.RSIIndicator;
-import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-
-import static org.junit.Assert.assertFalse;
-import static yang.yu.core.TestUtils.assertNumEquals;
-import static yang.yu.core.TestUtils.assertIndicatorEquals;
-import static yang.yu.core.TestUtils.assertIndicatorNotEquals;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static yang.yu.core.TestUtils.*;
 
 public class PrecisionNumTest {
 

@@ -27,20 +27,20 @@ import org.junit.Test;
 import yang.yu.core.Num;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 
-import java.io.InputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
-import java.util.function.Function;
 import java.util.Properties;
+import java.util.function.Function;
 
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertTrue;
+import static yang.yu.core.Num.NaN;
 import static yang.yu.core.TestUtils.assertNumEquals;
 import static yang.yu.core.TestUtils.assertNumNotEquals;
-import static yang.yu.core.Num.NaN;
 
 public class NumTest extends AbstractIndicatorTest<Object, Num> {
 

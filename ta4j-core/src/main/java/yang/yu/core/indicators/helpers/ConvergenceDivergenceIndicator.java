@@ -24,11 +24,11 @@
 package yang.yu.core.indicators.helpers;
 
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.Rule;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.statistics.CorrelationCoefficientIndicator;
 import yang.yu.core.indicators.statistics.SimpleLinearRegressionIndicator;
-import yang.yu.core.Num;
 import yang.yu.core.trading.rules.IsFallingRule;
 import yang.yu.core.trading.rules.IsRisingRule;
 

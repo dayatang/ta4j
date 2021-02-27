@@ -28,11 +28,11 @@ import org.junit.Test;
 import yang.yu.core.*;
 import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.Num;
 
 import java.util.function.Function;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static yang.yu.core.TestUtils.assertNumEquals;
 
 public class RewardRiskRatioCriterionTest extends AbstractCriterionTest {

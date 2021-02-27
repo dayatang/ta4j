@@ -47,19 +47,16 @@ package yang.yu.core.trading.rules;
 
 import org.junit.Assert;
 import org.junit.Test;
+import yang.yu.core.Num;
+import yang.yu.core.Order;
 import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.Num;
-import yang.yu.core.Order;
 
 import java.util.function.Function;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class TrailingStopLossRuleTest extends AbstractIndicatorTest<Object, Object> {
 

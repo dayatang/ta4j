@@ -24,9 +24,9 @@
 package yang.yu.core.indicators;
 
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.helpers.DifferenceIndicator;
 import yang.yu.core.indicators.helpers.MultiplierIndicator;
-import yang.yu.core.Num;
 
 /**
  * Hull moving average (HMA) indicator.

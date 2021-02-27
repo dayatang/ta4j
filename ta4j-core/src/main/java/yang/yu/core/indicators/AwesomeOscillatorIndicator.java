@@ -25,8 +25,8 @@ package yang.yu.core.indicators;
 
 import yang.yu.core.BarSeries;
 import yang.yu.core.Indicator;
-import yang.yu.core.indicators.helpers.MedianPriceIndicator;
 import yang.yu.core.Num;
+import yang.yu.core.indicators.helpers.MedianPriceIndicator;
 
 /**
  * Awesome oscillator. (AO)

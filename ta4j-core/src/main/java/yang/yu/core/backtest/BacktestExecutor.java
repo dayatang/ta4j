@@ -25,7 +25,6 @@ package yang.yu.core.backtest;
 
 import yang.yu.core.*;
 import yang.yu.core.base.BaseBarSeriesManager;
-import yang.yu.core.Num;
 import yang.yu.core.tradereport.TradingStatement;
 import yang.yu.core.tradereport.TradingStatementGenerator;
 

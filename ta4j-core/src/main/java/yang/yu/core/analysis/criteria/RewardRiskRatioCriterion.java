@@ -23,11 +23,7 @@
  */
 package yang.yu.core.analysis.criteria;
 
-import yang.yu.core.AnalysisCriterion;
-import yang.yu.core.BarSeries;
-import yang.yu.core.Trade;
-import yang.yu.core.TradingRecord;
-import yang.yu.core.Num;
+import yang.yu.core.*;
 
 /**
  * Reward risk ratio criterion.

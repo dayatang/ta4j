@@ -25,9 +25,9 @@ package yang.yu.core.indicators.candles;
 
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.SMAIndicator;
-import yang.yu.core.Num;
 
 /**
  * Three black crows indicator.

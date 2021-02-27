@@ -24,10 +24,10 @@
 package yang.yu.core.indicators.volume;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.helpers.CloseLocationValueIndicator;
 import yang.yu.core.indicators.helpers.VolumeIndicator;
-import yang.yu.core.Num;
 
 /**
  * Chaikin Money Flow (CMF) indicator.

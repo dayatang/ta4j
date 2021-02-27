@@ -24,10 +24,11 @@
 package yang.yu.core.indicators.ichimoku;
 
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.CachedIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+
 import static yang.yu.core.Num.NaN;
-import yang.yu.core.Num;
 
 /**
  * Ichimoku clouds: Chikou Span indicator
