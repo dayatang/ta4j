@@ -39,6 +39,39 @@ public abstract class AbstractRule implements Rule {
     private final String className = getClass().getSimpleName();
 
     /**
+     * @param rule another trading rule
+     * @return a rule which is the AND combination of this rule with the provided
+     *         one
+     */
+    public Rule and(Rule rule) {
+        return new AndRule(this, rule);
+    }
+
+    /**
+     * @param rule another trading rule
+     * @return a rule which is the OR combination of this rule with the provided one
+     */
+    public Rule or(Rule rule) {
+        return new OrRule(this, rule);
+    }
+
+    /**
+     * @param rule another trading rule
+     * @return a rule which is the XOR combination of this rule with the provided
+     *         one
+     */
+    public Rule xor(Rule rule) {
+        return new XorRule(this, rule);
+    }
+
+    /**
+     * @return a rule which is the logical negation of this rule
+     */
+    public Rule negation() {
+        return new NotRule(this);
+    }
+
+    /**
      * Traces the isSatisfied() method calls.
      * 
      * @param index       the bar index
