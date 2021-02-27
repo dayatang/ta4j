@@ -26,11 +26,11 @@ package yang.yu.core.indicators;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.Bar;
-import yang.yu.core.base.BaseBarSeries;
-import yang.yu.core.Indicator;
 import yang.yu.core.BarSeries;
-import yang.yu.core.mocks.MockBar;
+import yang.yu.core.Indicator;
 import yang.yu.core.Num;
+import yang.yu.core.base.BaseBarSeries;
+import yang.yu.core.mocks.MockBar;
 
 import java.util.ArrayList;
 import java.util.List;

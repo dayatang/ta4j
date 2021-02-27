@@ -32,7 +32,7 @@ import yang.yu.core.Order;
 import yang.yu.core.Rule;
 import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
-import yang.yu.core.cost.CostModel;
+import yang.yu.core.CostModel;
 import yang.yu.core.cost.LinearBorrowingCostModel;
 import yang.yu.core.cost.LinearTransactionCostModel;
 import yang.yu.core.indicators.SMAIndicator;

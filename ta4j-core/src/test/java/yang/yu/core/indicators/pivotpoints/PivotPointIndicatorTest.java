@@ -34,18 +34,10 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
 import static junit.framework.TestCase.assertEquals;
-import static yang.yu.core.TestUtils.assertNumEquals;
-import static yang.yu.core.indicators.pivotpoints.PivotLevel.RESISTANCE_1;
-import static yang.yu.core.indicators.pivotpoints.PivotLevel.RESISTANCE_2;
-import static yang.yu.core.indicators.pivotpoints.PivotLevel.RESISTANCE_3;
-import static yang.yu.core.indicators.pivotpoints.PivotLevel.SUPPORT_1;
-import static yang.yu.core.indicators.pivotpoints.PivotLevel.SUPPORT_2;
-import static yang.yu.core.indicators.pivotpoints.PivotLevel.SUPPORT_3;
-import static yang.yu.core.indicators.pivotpoints.TimeLevel.DAY;
-import static yang.yu.core.indicators.pivotpoints.TimeLevel.MONTH;
-import static yang.yu.core.indicators.pivotpoints.TimeLevel.WEEK;
-import static yang.yu.core.indicators.pivotpoints.TimeLevel.YEAR;
 import static yang.yu.core.Num.NaN;
+import static yang.yu.core.TestUtils.assertNumEquals;
+import static yang.yu.core.indicators.pivotpoints.PivotLevel.*;
+import static yang.yu.core.indicators.pivotpoints.TimeLevel.*;
 
 public class PivotPointIndicatorTest {
 

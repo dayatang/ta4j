@@ -26,7 +26,6 @@ package yang.yu.core;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.LinearTransactionCostModel;
 import yang.yu.core.num.DoubleNum;
 

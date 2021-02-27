@@ -27,8 +27,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import yang.yu.core.*;
 import yang.yu.core.Order.OrderType;
-import yang.yu.core.cost.CostModel;
-import yang.yu.core.cost.ZeroCostModel;
 
 /**
  * A manager for {@link BarSeries} objects.
@@ -52,7 +50,7 @@ public class BaseBarSeriesManager implements BarSeriesManager {
      * Constructor.
      */
     public BaseBarSeriesManager() {
-        this(null, new ZeroCostModel(), new ZeroCostModel());
+        this(null, CostModel.ZERO, CostModel.ZERO);
     }
 
     /**
@@ -61,7 +59,7 @@ public class BaseBarSeriesManager implements BarSeriesManager {
      * @param barSeries the bar series to be managed
      */
     public BaseBarSeriesManager(BarSeries barSeries) {
-        this(barSeries, new ZeroCostModel(), new ZeroCostModel());
+        this(barSeries, CostModel.ZERO, CostModel.ZERO);
     }
 
     /**

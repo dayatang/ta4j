@@ -26,15 +26,11 @@ package yang.yu.core.indicators;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.BarSeries;
-import yang.yu.core.ExternalIndicatorTest;
-import yang.yu.core.Indicator;
-import yang.yu.core.TestUtils;
+import yang.yu.core.*;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.indicators.helpers.GainIndicator;
 import yang.yu.core.indicators.helpers.LossIndicator;
 import yang.yu.core.mocks.MockBarSeries;
-import yang.yu.core.Num;
 
 import java.util.function.Function;
 

@@ -27,10 +27,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.num.DoubleNum;
-import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.LinearBorrowingCostModel;
 import yang.yu.core.cost.LinearTransactionCostModel;
-import yang.yu.core.cost.ZeroCostModel;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -222,7 +220,7 @@ public class TradeTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testCostModelEntryInconsistent() {
-        new Trade(enter, exitDifferentType, new ZeroCostModel(), holdingModel);
+        new Trade(enter, exitDifferentType, CostModel.ZERO, holdingModel);
     }
 
     @Test(expected = IllegalArgumentException.class)

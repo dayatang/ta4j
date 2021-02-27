@@ -23,9 +23,6 @@
  */
 package yang.yu.core;
 
-import yang.yu.core.cost.CostModel;
-import yang.yu.core.cost.ZeroCostModel;
-
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -125,7 +122,7 @@ public class Order implements Serializable {
      * @param amount the amount to be (or that was) ordered
      */
     protected Order(int index, BarSeries series, OrderType type, Num amount) {
-        this(index, series, type, amount, new ZeroCostModel());
+        this(index, series, type, amount, CostModel.ZERO);
     }
 
     /**
@@ -164,7 +161,7 @@ public class Order implements Serializable {
      * @param amount        the amount to be (or that was) ordered
      */
     protected Order(int index, OrderType type, Num pricePerAsset, Num amount) {
-        this(index, type, pricePerAsset, amount, new ZeroCostModel());
+        this(index, type, pricePerAsset, amount, CostModel.ZERO);
     }
 
     /**

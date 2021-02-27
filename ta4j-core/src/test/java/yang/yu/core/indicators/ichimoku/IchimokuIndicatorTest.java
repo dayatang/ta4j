@@ -26,18 +26,18 @@ package yang.yu.core.indicators.ichimoku;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.Bar;
-import yang.yu.core.Indicator;
 import yang.yu.core.BarSeries;
+import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBar;
 import yang.yu.core.mocks.MockBarSeries;
-import static yang.yu.core.Num.NaN;
-import yang.yu.core.Num;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
+import static yang.yu.core.Num.NaN;
 import static yang.yu.core.TestUtils.assertNumEquals;
 
 public class IchimokuIndicatorTest extends AbstractIndicatorTest<Indicator<Num>, Num> {

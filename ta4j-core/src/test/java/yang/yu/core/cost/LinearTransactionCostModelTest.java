@@ -25,6 +25,7 @@ package yang.yu.core.cost;
 
 import org.junit.Before;
 import org.junit.Test;
+import yang.yu.core.CostModel;
 import yang.yu.core.Num;
 import yang.yu.core.Order;
 import yang.yu.core.Trade;
@@ -60,7 +61,7 @@ public class LinearTransactionCostModelTest {
         Order entry = Order.buyAt(0, DoubleNum.valueOf(100), DoubleNum.valueOf(1), transactionModel);
         Order exit = Order.sellAt(holdingPeriod, DoubleNum.valueOf(110), DoubleNum.valueOf(1), transactionModel);
 
-        Trade trade = new Trade(entry, exit, transactionModel, new ZeroCostModel());
+        Trade trade = new Trade(entry, exit, transactionModel, CostModel.ZERO);
 
         Num costFromBuy = entry.getCost();
         Num costFromSell = exit.getCost();
@@ -78,7 +79,7 @@ public class LinearTransactionCostModelTest {
         Order entry = Order.sellAt(0, DoubleNum.valueOf(100), DoubleNum.valueOf(1), transactionModel);
         Order exit = Order.buyAt(holdingPeriod, DoubleNum.valueOf(110), DoubleNum.valueOf(1), transactionModel);
 
-        Trade trade = new Trade(entry, exit, transactionModel, new ZeroCostModel());
+        Trade trade = new Trade(entry, exit, transactionModel, CostModel.ZERO);
 
         Num costFromBuy = entry.getCost();
         Num costFromSell = exit.getCost();
@@ -93,7 +94,7 @@ public class LinearTransactionCostModelTest {
     public void calculateOpenSellTrade() {
         // Calculate the transaction costs of an open trade
         int currentIndex = 4;
-        Trade trade = new Trade(Order.OrderType.BUY, transactionModel, new ZeroCostModel());
+        Trade trade = new Trade(Order.OrderType.BUY, transactionModel, CostModel.ZERO);
         trade.operate(0, DoubleNum.valueOf(100), DoubleNum.valueOf(1));
 
         Num costsFromModel = transactionModel.calculate(trade, currentIndex);
@@ -106,7 +107,7 @@ public class LinearTransactionCostModelTest {
         LinearTransactionCostModel model = new LinearTransactionCostModel(0.1);
         CostModel modelSameClass = new LinearTransactionCostModel(0.2);
         CostModel modelSameFee = new LinearTransactionCostModel(0.1);
-        CostModel modelOther = new ZeroCostModel();
+        CostModel modelOther = CostModel.ZERO;
 
         boolean equality = model.equals(modelSameFee);
         boolean inequality1 = model.equals(modelSameClass);

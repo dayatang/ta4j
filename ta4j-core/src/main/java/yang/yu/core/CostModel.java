@@ -21,14 +21,13 @@
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package yang.yu.core.cost;
-
-import yang.yu.core.Num;
-import yang.yu.core.Trade;
+package yang.yu.core;
 
 import java.io.Serializable;
 
 public interface CostModel extends Serializable {
+
+    CostModel ZERO = new ZeroCostModel();
 
     /**
      * @param trade      the trade
@@ -51,4 +50,38 @@ public interface CostModel extends Serializable {
     Num calculate(Num price, Num amount);
 
     boolean equals(CostModel model);
+
+    class ZeroCostModel implements CostModel {
+
+        /**
+         * Constructor for a trading cost-free model.
+         */
+        public ZeroCostModel() {
+        }
+
+        public Num calculate(Trade trade) {
+            return calculate(trade, 0);
+        }
+
+        public Num calculate(Trade trade, int currentIndex) {
+            return trade.getEntry().getPricePerAsset().numOf(0);
+        }
+
+        public Num calculate(Num price, Num amount) {
+            return price.numOf(0);
+        }
+
+        /**
+         * Evaluate if two models are equal
+         *
+         * @param otherModel model to compare with
+         */
+        public boolean equals(CostModel otherModel) {
+            boolean equality = false;
+            if (this.getClass().equals(otherModel.getClass())) {
+                equality = true;
+            }
+            return equality;
+        }
+    }
 }

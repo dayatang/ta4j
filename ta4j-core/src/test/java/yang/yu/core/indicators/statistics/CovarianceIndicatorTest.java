@@ -26,13 +26,13 @@ package yang.yu.core.indicators.statistics;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.BarSeries;
-import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
+import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.indicators.helpers.VolumeIndicator;
 import yang.yu.core.mocks.MockBar;
-import yang.yu.core.Num;
 
 import java.time.ZonedDateTime;
 import java.util.function.Function;

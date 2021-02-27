@@ -27,8 +27,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import yang.yu.core.Indicator;
 import yang.yu.core.IndicatorFactory;
-import yang.yu.core.num.DoubleNum;
 import yang.yu.core.Num;
+import yang.yu.core.num.DoubleNum;
 import yang.yu.core.num.PrecisionNum;
 
 import java.math.BigDecimal;

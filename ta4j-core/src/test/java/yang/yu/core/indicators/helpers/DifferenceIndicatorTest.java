@@ -25,10 +25,10 @@ package yang.yu.core.indicators.helpers;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.BarSeries;
-import yang.yu.core.num.PrecisionNum;
 import yang.yu.core.Num;
+import yang.yu.core.base.BaseBarSeries;
+import yang.yu.core.num.PrecisionNum;
 
 import java.util.function.Function;
 

@@ -23,14 +23,14 @@
  */
 package yang.yu.core.indicators;
 
-import static yang.yu.core.TestUtils.assertIndicatorEquals;
-
-import java.util.function.Function;
-
 import org.junit.Test;
 import yang.yu.core.BarSeries;
 import yang.yu.core.ExternalIndicatorTest;
 import yang.yu.core.Num;
+
+import java.util.function.Function;
+
+import static yang.yu.core.TestUtils.assertIndicatorEquals;
 
 /**
  * Testing the RWIHighIndicator

@@ -26,11 +26,10 @@ package yang.yu.core.indicators.ichimoku;
 import org.junit.Test;
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
+import yang.yu.core.Num;
 import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBar;
-import static yang.yu.core.Num.NaN;
-import yang.yu.core.Num;
 
 import java.util.List;
 import java.util.function.Function;
@@ -38,6 +37,7 @@ import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toList;
 import static org.junit.Assert.assertEquals;
+import static yang.yu.core.Num.NaN;
 
 public class IchimokuChikouSpanIndicatorTest extends AbstractIndicatorTest<BarSeries, Num> {
 

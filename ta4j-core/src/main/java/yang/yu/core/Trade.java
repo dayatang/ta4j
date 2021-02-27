@@ -23,9 +23,6 @@
  */
 package yang.yu.core;
 
-import yang.yu.core.cost.CostModel;
-import yang.yu.core.cost.ZeroCostModel;
-
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -70,7 +67,7 @@ public class Trade implements Serializable {
      *                     (i.e. type of the entry order)
      */
     public Trade(Order.OrderType startingType) {
-        this(startingType, new ZeroCostModel(), new ZeroCostModel());
+        this(startingType, CostModel.ZERO, CostModel.ZERO);
     }
 
     /**
@@ -97,7 +94,7 @@ public class Trade implements Serializable {
      * @param exit  the exit {@link Order order}
      */
     public Trade(Order entry, Order exit) {
-        this(entry, exit, entry.getCostModel(), new ZeroCostModel());
+        this(entry, exit, entry.getCostModel(), CostModel.ZERO);
     }
 
     /**

@@ -26,16 +26,16 @@ package yang.yu.core.indicators;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.BarSeries;
-import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.Indicator;
 import yang.yu.core.Num;
+import yang.yu.core.base.BaseBarSeriesBuilder;
 
 import java.time.ZonedDateTime;
 import java.util.function.Function;
 
 import static junit.framework.TestCase.assertEquals;
-import static yang.yu.core.TestUtils.assertNumEquals;
 import static yang.yu.core.Num.NaN;
+import static yang.yu.core.TestUtils.assertNumEquals;
 
 public class AroonDownIndicatorTest extends AbstractIndicatorTest<Indicator<Num>, Num> {
 

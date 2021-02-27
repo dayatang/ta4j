@@ -24,6 +24,7 @@
 package yang.yu.core.cost;
 
 import org.junit.Test;
+import yang.yu.core.CostModel;
 import yang.yu.core.Num;
 import yang.yu.core.Order;
 import yang.yu.core.Trade;
@@ -38,7 +39,7 @@ public class ZeroCostModelTest {
     @Test
     public void calculatePerTrade() {
         // calculate costs per trade
-        ZeroCostModel model = new ZeroCostModel();
+        CostModel model = CostModel.ZERO;
 
         int holdingPeriod = 2;
         Order entry = Order.buyAt(0, DoubleNum.valueOf(100), DoubleNum.valueOf(1), model);
@@ -54,7 +55,7 @@ public class ZeroCostModelTest {
     @Test
     public void calculatePerPrice() {
         // calculate costs per trade
-        ZeroCostModel model = new ZeroCostModel();
+        CostModel model = CostModel.ZERO;
         Num cost = model.calculate(DoubleNum.valueOf(100), DoubleNum.valueOf(1));
 
         assertNumEquals(cost, DoubleNum.valueOf(0));
@@ -62,8 +63,8 @@ public class ZeroCostModelTest {
 
     @Test
     public void testEquality() {
-        ZeroCostModel model = new ZeroCostModel();
-        CostModel modelSame = new ZeroCostModel();
+        CostModel model = CostModel.ZERO;
+        CostModel modelSame = CostModel.ZERO;
         CostModel modelOther = new LinearTransactionCostModel(0.1);
         boolean equality = model.equals(modelSame);
         boolean inequality = model.equals(modelOther);

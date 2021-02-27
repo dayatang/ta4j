@@ -24,15 +24,15 @@
 package yang.yu.core.indicators.helpers;
 
 import org.junit.Test;
-import yang.yu.core.Indicator;
 import yang.yu.core.BarSeries;
+import yang.yu.core.Indicator;
+import yang.yu.core.Num;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBarSeries;
-import static yang.yu.core.Num.NaN;
-import yang.yu.core.Num;
 
 import java.util.function.Function;
 
+import static yang.yu.core.Num.NaN;
 import static yang.yu.core.TestUtils.assertNumEquals;
 
 public class DifferencePercentageIndicatorTest extends AbstractIndicatorTest<Indicator<Num>, Num> {

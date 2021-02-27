@@ -26,11 +26,11 @@ package yang.yu.core.indicators.helpers;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.BarSeries;
-import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.Indicator;
+import yang.yu.core.Num;
+import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.indicators.helpers.ConvergenceDivergenceIndicator.ConvergenceDivergenceStrictType;
 import yang.yu.core.indicators.helpers.ConvergenceDivergenceIndicator.ConvergenceDivergenceType;
-import yang.yu.core.Num;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

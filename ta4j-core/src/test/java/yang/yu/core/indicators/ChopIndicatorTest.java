@@ -26,16 +26,16 @@
  */
 package yang.yu.core.indicators;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+import yang.yu.core.BarSeries;
+import yang.yu.core.Indicator;
+import yang.yu.core.Num;
+import yang.yu.core.base.BaseBarSeriesBuilder;
 
 import java.time.ZonedDateTime;
 import java.util.function.Function;
 
-import org.junit.Test;
-import yang.yu.core.base.BaseBarSeriesBuilder;
-import yang.yu.core.Indicator;
-import yang.yu.core.BarSeries;
-import yang.yu.core.Num;
+import static org.junit.Assert.assertTrue;
 
 /**
  * @author jtomkinson

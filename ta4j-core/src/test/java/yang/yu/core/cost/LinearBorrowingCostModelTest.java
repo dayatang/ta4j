@@ -25,6 +25,7 @@ package yang.yu.core.cost;
 
 import org.junit.Before;
 import org.junit.Test;
+import yang.yu.core.CostModel;
 import yang.yu.core.Num;
 import yang.yu.core.Order;
 import yang.yu.core.Trade;
@@ -60,7 +61,7 @@ public class LinearBorrowingCostModelTest {
         Order entry = Order.buyAt(0, DoubleNum.valueOf(100), DoubleNum.valueOf(1));
         Order exit = Order.sellAt(holdingPeriod, DoubleNum.valueOf(110), DoubleNum.valueOf(1));
 
-        Trade trade = new Trade(entry, exit, new ZeroCostModel(), borrowingModel);
+        Trade trade = new Trade(entry, exit, CostModel.ZERO, borrowingModel);
 
         Num costsFromTrade = trade.getHoldingCost();
         Num costsFromModel = borrowingModel.calculate(trade, holdingPeriod);
@@ -76,7 +77,7 @@ public class LinearBorrowingCostModelTest {
         Order entry = Order.sellAt(0, DoubleNum.valueOf(100), DoubleNum.valueOf(1));
         Order exit = Order.buyAt(holdingPeriod, DoubleNum.valueOf(110), DoubleNum.valueOf(1));
 
-        Trade trade = new Trade(entry, exit, new ZeroCostModel(), borrowingModel);
+        Trade trade = new Trade(entry, exit, CostModel.ZERO, borrowingModel);
 
         Num costsFromTrade = trade.getHoldingCost();
         Num costsFromModel = borrowingModel.calculate(trade, holdingPeriod);
@@ -90,7 +91,7 @@ public class LinearBorrowingCostModelTest {
         // Short selling incurs borrowing costs. Since trade is still open, accounted
         // for until current index
         int currentIndex = 4;
-        Trade trade = new Trade(Order.OrderType.SELL, new ZeroCostModel(), borrowingModel);
+        Trade trade = new Trade(Order.OrderType.SELL, CostModel.ZERO, borrowingModel);
         trade.operate(0, DoubleNum.valueOf(100), DoubleNum.valueOf(1));
 
         Num costsFromTrade = trade.getHoldingCost(currentIndex);
@@ -105,7 +106,7 @@ public class LinearBorrowingCostModelTest {
         LinearBorrowingCostModel model = new LinearBorrowingCostModel(0.1);
         CostModel modelSameClass = new LinearBorrowingCostModel(0.2);
         CostModel modelSameFee = new LinearBorrowingCostModel(0.1);
-        CostModel modelOther = new ZeroCostModel();
+        CostModel modelOther = CostModel.ZERO;
 
         boolean equality = model.equals(modelSameFee);
         boolean inequality1 = model.equals(modelSameClass);

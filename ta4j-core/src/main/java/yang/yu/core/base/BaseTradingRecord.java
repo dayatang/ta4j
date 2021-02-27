@@ -23,12 +23,7 @@
  */
 package yang.yu.core.base;
 
-import yang.yu.core.Num;
-import yang.yu.core.Order;
-import yang.yu.core.Trade;
-import yang.yu.core.TradingRecord;
-import yang.yu.core.cost.CostModel;
-import yang.yu.core.cost.ZeroCostModel;
+import yang.yu.core.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -98,7 +93,7 @@ public class BaseTradingRecord implements TradingRecord {
      * Constructor.
      */
     public BaseTradingRecord(Order.OrderType orderType) {
-        this(orderType, new ZeroCostModel(), new ZeroCostModel());
+        this(orderType, CostModel.ZERO, CostModel.ZERO);
     }
 
     /**
@@ -126,7 +121,7 @@ public class BaseTradingRecord implements TradingRecord {
      * @param orders the orders to be recorded (cannot be empty)
      */
     public BaseTradingRecord(Order... orders) {
-        this(new ZeroCostModel(), new ZeroCostModel(), orders);
+        this(CostModel.ZERO, CostModel.ZERO, orders);
     }
 
     /**

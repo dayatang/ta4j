@@ -25,8 +25,8 @@ package yang.yu.core.indicators.helpers;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.BarSeries;
+import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.indicators.EMAIndicator;
 
 import java.time.ZonedDateTime;

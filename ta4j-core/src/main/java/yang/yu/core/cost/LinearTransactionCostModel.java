@@ -23,6 +23,7 @@
  */
 package yang.yu.core.cost;
 
+import yang.yu.core.CostModel;
 import yang.yu.core.Num;
 import yang.yu.core.Order;
 import yang.yu.core.Trade;
