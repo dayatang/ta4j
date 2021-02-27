@@ -25,7 +25,8 @@ package ta4jexamples.strategies;
 
 import yang.yu.core.BarSeries;
 import yang.yu.core.BarSeriesManager;
-import yang.yu.core.BaseStrategy;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.Rule;
 import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
@@ -94,7 +95,7 @@ public class MovingMomentumStrategy {
         Strategy strategy = buildStrategy(series);
 
         // Running the strategy
-        BarSeriesManager seriesManager = new BarSeriesManager(series);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series);
         TradingRecord tradingRecord = seriesManager.run(strategy);
         System.out.println("Number of trades for the strategy: " + tradingRecord.getTradeCount());
 

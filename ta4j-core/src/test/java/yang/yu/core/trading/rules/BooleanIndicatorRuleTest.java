@@ -25,7 +25,7 @@ package yang.yu.core.trading.rules;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.Indicator;
 import yang.yu.core.indicators.helpers.FixedIndicator;
 

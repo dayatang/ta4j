@@ -23,7 +23,7 @@
  */
 package yang.yu.core.mocks;
 
-import yang.yu.core.BaseTradingRecord;
+import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.num.Num;
 
 import java.util.List;

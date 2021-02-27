@@ -40,6 +40,7 @@ import yang.yu.core.BarSeriesManager;
 import yang.yu.core.Indicator;
 import yang.yu.core.Strategy;
 import yang.yu.core.Trade;
+import yang.yu.core.base.BaseBarSeriesManager;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.num.Num;
 import ta4jexamples.loaders.CsvTradesLoader;
@@ -85,7 +86,7 @@ public class BuyAndSellSignalsToChart {
      */
     private static void addBuySellSignals(BarSeries series, Strategy strategy, XYPlot plot) {
         // Running the strategy
-        BarSeriesManager seriesManager = new BarSeriesManager(series);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series);
         List<Trade> trades = seriesManager.run(strategy).getTrades();
         // Adding markers to plot
         for (Trade trade : trades) {

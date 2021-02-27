@@ -30,6 +30,8 @@ import java.time.ZonedDateTime;
 import java.util.function.Function;
 
 import org.junit.Test;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.num.Num;

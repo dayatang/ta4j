@@ -24,7 +24,7 @@
 package yang.yu.core.indicators.volume;
 
 import org.junit.Test;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.BarSeries;
 
 import java.time.ZonedDateTime;

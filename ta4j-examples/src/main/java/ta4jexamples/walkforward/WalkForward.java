@@ -29,6 +29,7 @@ import yang.yu.core.BarSeriesManager;
 import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.base.BaseBarSeriesManager;
 import yang.yu.core.num.Num;
 import ta4jexamples.loaders.CsvTradesLoader;
 import ta4jexamples.strategies.CCICorrectionStrategy;
@@ -180,7 +181,7 @@ public class WalkForward {
         for (BarSeries slice : subseries) {
             // For each sub-series...
             System.out.println("Sub-series: " + slice.getSeriesPeriodDescription());
-            BarSeriesManager sliceManager = new BarSeriesManager(slice);
+            BarSeriesManager sliceManager = new BaseBarSeriesManager(slice);
             for (Map.Entry<Strategy, String> entry : strategies.entrySet()) {
                 Strategy strategy = entry.getKey();
                 String name = entry.getValue();

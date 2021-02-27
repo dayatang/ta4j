@@ -26,13 +26,14 @@ package yang.yu.core.indicators;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.*;
+import yang.yu.core.base.BaseBarSeriesBuilder;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.indicators.helpers.ConstantIndicator;
 import yang.yu.core.mocks.MockBarSeries;
 import yang.yu.core.num.Num;
 import yang.yu.core.trading.rules.OverIndicatorRule;
 import yang.yu.core.trading.rules.UnderIndicatorRule;
-import yang.yu.core.*;
 
 import java.util.Arrays;
 import java.util.function.Function;

@@ -25,9 +25,9 @@ package ta4jexamples.bots;
 
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
-import yang.yu.core.BaseBar;
-import yang.yu.core.BaseStrategy;
-import yang.yu.core.BaseTradingRecord;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.BaseStrategy;
+import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.Order;
 import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;

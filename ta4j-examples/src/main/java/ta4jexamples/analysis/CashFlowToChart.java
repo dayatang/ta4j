@@ -41,6 +41,7 @@ import yang.yu.core.Indicator;
 import yang.yu.core.Strategy;
 import yang.yu.core.TradingRecord;
 import yang.yu.core.analysis.CashFlow;
+import yang.yu.core.base.BaseBarSeriesManager;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.num.Num;
 import ta4jexamples.loaders.CsvTradesLoader;
@@ -117,7 +118,7 @@ public class CashFlowToChart {
         // Building the trading strategy
         Strategy strategy = MovingMomentumStrategy.buildStrategy(series);
         // Running the strategy
-        BarSeriesManager seriesManager = new BarSeriesManager(series);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series);
         TradingRecord tradingRecord = seriesManager.run(strategy);
         // Getting the cash flow of the resulting trades
         CashFlow cashFlow = new CashFlow(series, tradingRecord);

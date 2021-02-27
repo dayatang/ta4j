@@ -21,8 +21,11 @@
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package yang.yu.core;
+package yang.yu.core.base;
 
+import yang.yu.core.Order;
+import yang.yu.core.Trade;
+import yang.yu.core.TradingRecord;
 import yang.yu.core.cost.CostModel;
 import yang.yu.core.cost.ZeroCostModel;
 import yang.yu.core.num.Num;

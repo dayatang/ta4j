@@ -32,9 +32,10 @@ import java.util.function.Function;
 
 import org.junit.Test;
 import yang.yu.core.*;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.indicators.RSIIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
-import yang.yu.core.*;
 
 import static org.junit.Assert.assertFalse;
 import static yang.yu.core.TestUtils.assertNumEquals;

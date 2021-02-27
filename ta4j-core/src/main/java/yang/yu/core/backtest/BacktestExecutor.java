@@ -21,8 +21,10 @@
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package yang.yu.core;
+package yang.yu.core.backtest;
 
+import yang.yu.core.*;
+import yang.yu.core.base.BaseBarSeriesManager;
 import yang.yu.core.num.Num;
 import yang.yu.core.tradereport.TradingStatement;
 import yang.yu.core.tradereport.TradingStatementGenerator;
@@ -44,7 +46,7 @@ public class BacktestExecutor {
     }
 
     public BacktestExecutor(BarSeries series, TradingStatementGenerator tradingStatementGenerator) {
-        this.seriesManager = new BarSeriesManager(series);
+        this.seriesManager = new BaseBarSeriesManager(series);
         this.tradingStatementGenerator = tradingStatementGenerator;
     }
 

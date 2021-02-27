@@ -25,6 +25,8 @@ package yang.yu.core;
 
 import org.junit.Before;
 import org.junit.Test;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBarSeries;
 import yang.yu.core.num.Num;
@@ -67,7 +69,7 @@ public class BarSeriesManagerTest extends AbstractIndicatorTest<BarSeries, Num> 
                         ZonedDateTime.parse("2015-08-01T00:00:00-05:00", dtf),
                         ZonedDateTime.parse("2015-10-01T00:00:00-05:00", dtf),
                         ZonedDateTime.parse("2015-12-01T00:00:00-05:00", dtf) });
-        manager = new BarSeriesManager(seriesForRun);
+        manager = new BaseBarSeriesManager(seriesForRun);
 
         strategy = new BaseStrategy(new FixedRule(0, 2, 3, 6), new FixedRule(1, 4, 7, 8));
         strategy.setUnstablePeriod(2); // Strategy would need a real test class

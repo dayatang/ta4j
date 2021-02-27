@@ -25,7 +25,7 @@ package yang.yu.core.trading.rules;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.BaseTradingRecord;
+import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.Order;
 import yang.yu.core.BarSeries;
 import yang.yu.core.TradingRecord;

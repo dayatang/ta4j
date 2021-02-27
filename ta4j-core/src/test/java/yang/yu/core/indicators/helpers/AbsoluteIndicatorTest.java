@@ -25,7 +25,7 @@ package yang.yu.core.indicators.helpers;
 
 import org.junit.Test;
 import yang.yu.core.BarSeries;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.Indicator;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.num.Num;

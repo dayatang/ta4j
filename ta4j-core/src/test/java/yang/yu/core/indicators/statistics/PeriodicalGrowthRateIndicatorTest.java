@@ -26,13 +26,14 @@ package yang.yu.core.indicators.statistics;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.*;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.mocks.MockBarSeries;
 import yang.yu.core.num.Num;
 import yang.yu.core.trading.rules.CrossedDownIndicatorRule;
 import yang.yu.core.trading.rules.CrossedUpIndicatorRule;
-import yang.yu.core.*;
 
 import java.util.function.Function;
 
@@ -55,7 +56,7 @@ public class PeriodicalGrowthRateIndicatorTest extends AbstractIndicatorTest<Ind
         BarSeries mockSeries = new MockBarSeries(numFunction, 29.49, 28.30, 27.74, 27.65, 27.60, 28.70, 28.60, 28.19,
                 27.40, 27.20, 27.28, 27.00, 27.59, 26.20, 25.75, 24.75, 23.33, 24.45, 24.25, 25.02, 23.60, 24.20, 24.28,
                 25.70, 25.46, 25.10, 25.00, 25.00, 25.85);
-        seriesManager = new BarSeriesManager(mockSeries);
+        seriesManager = new BaseBarSeriesManager(mockSeries);
         closePrice = new ClosePriceIndicator(mockSeries);
     }
 

@@ -25,7 +25,8 @@ package yang.yu.core.analysis.criteria;
 
 import org.junit.Before;
 import org.junit.Test;
-import yang.yu.core.BaseStrategy;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.Strategy;
 import yang.yu.core.BarSeriesManager;
 import yang.yu.core.mocks.MockBarSeries;
@@ -63,7 +64,7 @@ public class AbstractAnalysisCriterionTest extends AbstractCriterionTest {
     @Test
     public void bestShouldBeAlwaysOperateOnProfit() {
         MockBarSeries series = new MockBarSeries(numFunction, 6.0, 9.0, 6.0, 6.0);
-        BarSeriesManager manager = new BarSeriesManager(series);
+        BarSeriesManager manager = new BaseBarSeriesManager(series);
         Strategy bestStrategy = getCriterion().chooseBest(manager, strategies);
         assertEquals(alwaysStrategy, bestStrategy);
     }
@@ -71,7 +72,7 @@ public class AbstractAnalysisCriterionTest extends AbstractCriterionTest {
     @Test
     public void bestShouldBeBuyAndHoldOnLoss() {
         MockBarSeries series = new MockBarSeries(numFunction, 6.0, 3.0, 6.0, 6.0);
-        BarSeriesManager manager = new BarSeriesManager(series);
+        BarSeriesManager manager = new BaseBarSeriesManager(series);
         Strategy bestStrategy = getCriterion().chooseBest(manager, strategies);
         assertEquals(buyAndHoldStrategy, bestStrategy);
     }

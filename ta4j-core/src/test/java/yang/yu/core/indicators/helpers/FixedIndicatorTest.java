@@ -26,7 +26,7 @@ package yang.yu.core.indicators.helpers;
 import org.junit.Assert;
 import org.junit.Test;
 import yang.yu.core.BarSeries;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeries;
 
 import static yang.yu.core.TestUtils.assertNumEquals;
 

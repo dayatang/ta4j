@@ -25,13 +25,13 @@ package yang.yu.core.analysis;
 
 import org.junit.Test;
 import yang.yu.core.*;
+import yang.yu.core.base.BaseTradingRecord;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBarSeries;
 import yang.yu.core.num.DoubleNum;
 import yang.yu.core.num.NaN;
 import yang.yu.core.num.Num;
 import yang.yu.core.num.PrecisionNum;
-import yang.yu.core.*;
 
 import java.util.function.Function;
 

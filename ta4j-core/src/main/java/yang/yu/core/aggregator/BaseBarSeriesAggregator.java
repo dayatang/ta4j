@@ -25,7 +25,7 @@ package yang.yu.core.aggregator;
 
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeries;
 
 import java.util.List;
 

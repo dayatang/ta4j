@@ -26,7 +26,7 @@ package yang.yu.core.indicators.ichimoku;
 import org.junit.Test;
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeries;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.mocks.MockBar;
 import static yang.yu.core.num.NaN.NaN;

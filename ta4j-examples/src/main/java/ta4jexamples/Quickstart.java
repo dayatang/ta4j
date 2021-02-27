@@ -24,11 +24,12 @@
 package ta4jexamples;
 
 import yang.yu.core.*;
-import yang.yu.core.*;
 import yang.yu.core.analysis.criteria.AverageProfitableTradesCriterion;
 import yang.yu.core.analysis.criteria.RewardRiskRatioCriterion;
 import yang.yu.core.analysis.criteria.TotalProfitCriterion;
 import yang.yu.core.analysis.criteria.VersusBuyAndHoldCriterion;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.indicators.SMAIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.num.Num;
@@ -85,7 +86,7 @@ public class Quickstart {
                 .or(new StopLossRule(closePrice, series.numOf(3))).or(new StopGainRule(closePrice, series.numOf(2)));
 
         // Running our juicy trading strategy...
-        BarSeriesManager seriesManager = new BarSeriesManager(series);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series);
         TradingRecord tradingRecord = seriesManager.run(new BaseStrategy(buyingRule, sellingRule));
         System.out.println("Number of trades for our strategy: " + tradingRecord.getTradeCount());
 

@@ -32,6 +32,7 @@ import yang.yu.core.BarSeriesManager;
 import yang.yu.core.Strategy;
 import ta4jexamples.loaders.CsvTradesLoader;
 import ta4jexamples.strategies.CCICorrectionStrategy;
+import yang.yu.core.base.BaseBarSeriesManager;
 
 import java.net.URL;
 import java.util.logging.Level;
@@ -82,7 +83,7 @@ public class StrategyExecutionLogging {
         Strategy strategy = CCICorrectionStrategy.buildStrategy(series);
 
         // Running the strategy
-        BarSeriesManager seriesManager = new BarSeriesManager(series);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series);
         seriesManager.run(strategy);
 
         // Unload the Logback configuration

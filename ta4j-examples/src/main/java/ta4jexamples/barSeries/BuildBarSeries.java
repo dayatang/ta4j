@@ -24,7 +24,10 @@
 package ta4jexamples.barSeries;
 
 import yang.yu.core.*;
-import yang.yu.core.*;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeriesBuilder;
+import yang.yu.core.base.ConvertibleBaseBarBuilder;
 import yang.yu.core.num.DoubleNum;
 import yang.yu.core.num.PrecisionNum;
 

@@ -26,6 +26,8 @@ package yang.yu.core;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.ConvertibleBaseBarBuilder;
 import yang.yu.core.indicators.AbstractIndicatorTest;
 import yang.yu.core.num.Num;
 import yang.yu.core.num.PrecisionNum;

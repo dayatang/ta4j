@@ -26,8 +26,8 @@ package ta4jexamples.loaders;
 import com.opencsv.CSVReader;
 import yang.yu.core.Bar;
 import yang.yu.core.BarSeries;
-import yang.yu.core.BaseBar;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.BaseBarSeries;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -30,6 +30,7 @@ import yang.yu.core.TradingRecord;
 import ta4jexamples.loaders.CsvTradesLoader;
 import ta4jexamples.strategies.MovingMomentumStrategy;
 import yang.yu.core.analysis.criteria.*;
+import yang.yu.core.base.BaseBarSeriesManager;
 
 /**
  * This class diplays analysis criterion values after running a trading strategy
@@ -44,7 +45,7 @@ public class StrategyAnalysis {
         // Building the trading strategy
         Strategy strategy = MovingMomentumStrategy.buildStrategy(series);
         // Running the strategy
-        BarSeriesManager seriesManager = new BarSeriesManager(series);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series);
         TradingRecord tradingRecord = seriesManager.run(strategy);
 
         /*

@@ -24,8 +24,11 @@
 package ta4jexamples.backtesting;
 
 import yang.yu.core.*;
-import yang.yu.core.*;
 import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.base.BaseBar;
+import yang.yu.core.base.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.indicators.SMAIndicator;
 import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import yang.yu.core.num.Num;
@@ -44,7 +47,7 @@ public class SimpleMovingAverageBacktest {
 
         Strategy strategy3DaySma = create3DaySmaStrategy(series);
 
-        BarSeriesManager seriesManager = new BarSeriesManager(series);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series);
         TradingRecord tradingRecord3DaySma = seriesManager.run(strategy3DaySma, Order.OrderType.BUY,
                 PrecisionNum.valueOf(50));
         System.out.println(tradingRecord3DaySma);
@@ -76,7 +79,7 @@ public class SimpleMovingAverageBacktest {
     }
 
     private static BaseBar createBar(ZonedDateTime endTime, Number openPrice, Number highPrice, Number lowPrice,
-            Number closePrice, Number volume) {
+                                     Number closePrice, Number volume) {
         return BaseBar.builder(PrecisionNum::valueOf, Number.class).timePeriod(Duration.ofDays(1)).endTime(endTime)
                 .openPrice(openPrice).highPrice(highPrice).lowPrice(lowPrice).closePrice(closePrice).volume(volume)
                 .build();

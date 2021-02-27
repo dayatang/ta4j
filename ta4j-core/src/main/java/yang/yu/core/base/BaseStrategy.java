@@ -21,10 +21,13 @@
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package yang.yu.core;
+package yang.yu.core.base;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import yang.yu.core.Rule;
+import yang.yu.core.Strategy;
+import yang.yu.core.TradingRecord;
 
 /**
  * Base implementation of a {@link Strategy}.

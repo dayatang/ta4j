@@ -25,7 +25,8 @@ package ta4jexamples.analysis;
 
 import yang.yu.core.BarSeries;
 import yang.yu.core.BarSeriesManager;
-import yang.yu.core.BaseStrategy;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.Indicator;
 import yang.yu.core.Order;
 import yang.yu.core.Rule;
@@ -62,7 +63,7 @@ public class TradeCost {
         CostModel borrowingCostModel = new LinearBorrowingCostModel(borrowingFee);
 
         // Running the strategy
-        BarSeriesManager seriesManager = new BarSeriesManager(series, transactionCostModel, borrowingCostModel);
+        BarSeriesManager seriesManager = new BaseBarSeriesManager(series, transactionCostModel, borrowingCostModel);
         Order.OrderType entryOrder = Order.OrderType.SELL;
         TradingRecord tradingRecord = seriesManager.run(strategy, entryOrder);
 

@@ -23,8 +23,8 @@
  */
 package ta4jexamples.backtesting;
 
-import yang.yu.core.BacktestExecutor;
-import yang.yu.core.BaseStrategy;
+import yang.yu.core.backtest.BacktestExecutor;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.Indicator;
 import yang.yu.core.Order;
 import yang.yu.core.Rule;

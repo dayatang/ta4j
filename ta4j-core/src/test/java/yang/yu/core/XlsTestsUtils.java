@@ -29,6 +29,7 @@ import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.FormulaEvaluator;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import yang.yu.core.base.BaseBarSeriesBuilder;
 import yang.yu.core.mocks.MockIndicator;
 import yang.yu.core.mocks.MockTradingRecord;
 import static yang.yu.core.num.NaN.NaN;

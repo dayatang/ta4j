@@ -23,7 +23,7 @@
  */
 package yang.yu.core.mocks;
 
-import yang.yu.core.BaseBar;
+import yang.yu.core.base.BaseBar;
 import yang.yu.core.num.Num;
 
 import java.time.Duration;

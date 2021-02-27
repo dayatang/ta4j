@@ -26,7 +26,7 @@ package yang.yu.core.indicators;
 import org.junit.Before;
 import org.junit.Test;
 import yang.yu.core.BarSeries;
-import yang.yu.core.BaseBarSeries;
+import yang.yu.core.base.BaseBarSeries;
 
 import java.time.LocalDate;
 import java.time.ZoneId;

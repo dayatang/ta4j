@@ -24,8 +24,10 @@
 package ta4jexamples.num;
 
 import yang.yu.core.*;
-import yang.yu.core.*;
 import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.base.BaseBarSeriesBuilder;
+import yang.yu.core.base.BaseBarSeriesManager;
+import yang.yu.core.base.BaseStrategy;
 import yang.yu.core.indicators.EMAIndicator;
 import yang.yu.core.indicators.MACDIndicator;
 import yang.yu.core.indicators.RSIIndicator;
@@ -84,7 +86,7 @@ public class CompareNumTypes {
         Strategy strategy1 = new BaseStrategy(entry, exit); // enter/exit every tick
 
         long start = System.currentTimeMillis();
-        BarSeriesManager manager = new BarSeriesManager(series);
+        BarSeriesManager manager = new BaseBarSeriesManager(series);
         TradingRecord record1 = manager.run(strategy1);
         TotalProfitCriterion profit1 = new TotalProfitCriterion();
         Num profitResult1 = profit1.calculate(series, record1);
