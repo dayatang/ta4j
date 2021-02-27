@@ -23,13 +23,13 @@
  */
 package ta4jexamples.analysis;
 
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.Strategy;
-import org.ta4j.core.BarSeriesManager;
-import org.ta4j.core.TradingRecord;
-import org.ta4j.core.analysis.criteria.*;
+import yang.yu.core.BarSeries;
+import yang.yu.core.Strategy;
+import yang.yu.core.BarSeriesManager;
+import yang.yu.core.TradingRecord;
 import ta4jexamples.loaders.CsvTradesLoader;
 import ta4jexamples.strategies.MovingMomentumStrategy;
+import yang.yu.core.analysis.criteria.*;
 
 /**
  * This class diplays analysis criterion values after running a trading strategy

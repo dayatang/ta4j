@@ -23,10 +23,10 @@
  */
 package ta4jexamples.barSeries;
 
-import org.ta4j.core.*;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.num.DoubleNum;
-import org.ta4j.core.num.PrecisionNum;
+import yang.yu.core.*;
+import yang.yu.core.*;
+import yang.yu.core.num.DoubleNum;
+import yang.yu.core.num.PrecisionNum;
 
 import java.time.Duration;
 import java.time.ZonedDateTime;

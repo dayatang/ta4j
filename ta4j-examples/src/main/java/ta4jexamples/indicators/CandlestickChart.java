@@ -37,9 +37,9 @@ import org.jfree.data.xy.DefaultHighLowDataset;
 import org.jfree.data.xy.OHLCDataset;
 import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities;
-import org.ta4j.core.Bar;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.Bar;
+import yang.yu.core.BarSeries;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
 import ta4jexamples.loaders.CsvTradesLoader;
 
 import java.awt.*;

@@ -23,20 +23,20 @@
  */
 package ta4jexamples.bots;
 
-import org.ta4j.core.Bar;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.BaseBar;
-import org.ta4j.core.BaseStrategy;
-import org.ta4j.core.BaseTradingRecord;
-import org.ta4j.core.Order;
-import org.ta4j.core.Strategy;
-import org.ta4j.core.TradingRecord;
-import org.ta4j.core.indicators.SMAIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
-import org.ta4j.core.num.Num;
-import org.ta4j.core.num.PrecisionNum;
-import org.ta4j.core.trading.rules.OverIndicatorRule;
-import org.ta4j.core.trading.rules.UnderIndicatorRule;
+import yang.yu.core.Bar;
+import yang.yu.core.BarSeries;
+import yang.yu.core.BaseBar;
+import yang.yu.core.BaseStrategy;
+import yang.yu.core.BaseTradingRecord;
+import yang.yu.core.Order;
+import yang.yu.core.Strategy;
+import yang.yu.core.TradingRecord;
+import yang.yu.core.indicators.SMAIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.num.Num;
+import yang.yu.core.num.PrecisionNum;
+import yang.yu.core.trading.rules.OverIndicatorRule;
+import yang.yu.core.trading.rules.UnderIndicatorRule;
 import ta4jexamples.loaders.CsvTradesLoader;
 
 import java.time.Duration;

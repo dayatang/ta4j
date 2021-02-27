@@ -23,22 +23,22 @@
  */
 package ta4jexamples.analysis;
 
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.BarSeriesManager;
-import org.ta4j.core.BaseStrategy;
-import org.ta4j.core.Indicator;
-import org.ta4j.core.Order;
-import org.ta4j.core.Rule;
-import org.ta4j.core.Strategy;
-import org.ta4j.core.TradingRecord;
-import org.ta4j.core.cost.CostModel;
-import org.ta4j.core.cost.LinearBorrowingCostModel;
-import org.ta4j.core.cost.LinearTransactionCostModel;
-import org.ta4j.core.indicators.SMAIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
-import org.ta4j.core.num.Num;
-import org.ta4j.core.trading.rules.OverIndicatorRule;
-import org.ta4j.core.trading.rules.UnderIndicatorRule;
+import yang.yu.core.BarSeries;
+import yang.yu.core.BarSeriesManager;
+import yang.yu.core.BaseStrategy;
+import yang.yu.core.Indicator;
+import yang.yu.core.Order;
+import yang.yu.core.Rule;
+import yang.yu.core.Strategy;
+import yang.yu.core.TradingRecord;
+import yang.yu.core.cost.CostModel;
+import yang.yu.core.cost.LinearBorrowingCostModel;
+import yang.yu.core.cost.LinearTransactionCostModel;
+import yang.yu.core.indicators.SMAIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.num.Num;
+import yang.yu.core.trading.rules.OverIndicatorRule;
+import yang.yu.core.trading.rules.UnderIndicatorRule;
 import ta4jexamples.loaders.CsvTradesLoader;
 
 import java.text.DecimalFormat;

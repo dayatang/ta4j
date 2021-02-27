@@ -23,13 +23,13 @@
  */
 package ta4jexamples.walkforward;
 
-import org.ta4j.core.AnalysisCriterion;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.BarSeriesManager;
-import org.ta4j.core.Strategy;
-import org.ta4j.core.TradingRecord;
-import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
-import org.ta4j.core.num.Num;
+import yang.yu.core.AnalysisCriterion;
+import yang.yu.core.BarSeries;
+import yang.yu.core.BarSeriesManager;
+import yang.yu.core.Strategy;
+import yang.yu.core.TradingRecord;
+import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.num.Num;
 import ta4jexamples.loaders.CsvTradesLoader;
 import ta4jexamples.strategies.CCICorrectionStrategy;
 import ta4jexamples.strategies.GlobalExtremaStrategy;

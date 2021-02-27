@@ -23,20 +23,21 @@
  */
 package ta4jexamples.num;
 
-import org.ta4j.core.*;
-import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
-import org.ta4j.core.indicators.EMAIndicator;
-import org.ta4j.core.indicators.MACDIndicator;
-import org.ta4j.core.indicators.RSIIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
-import org.ta4j.core.indicators.helpers.DifferenceIndicator;
-import org.ta4j.core.indicators.helpers.HighPriceIndicator;
-import org.ta4j.core.indicators.helpers.LowPriceIndicator;
-import org.ta4j.core.num.Num;
-import org.ta4j.core.num.PrecisionNum;
-import org.ta4j.core.num.DoubleNum;
-import org.ta4j.core.trading.rules.IsEqualRule;
-import org.ta4j.core.trading.rules.UnderIndicatorRule;
+import yang.yu.core.*;
+import yang.yu.core.*;
+import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.indicators.EMAIndicator;
+import yang.yu.core.indicators.MACDIndicator;
+import yang.yu.core.indicators.RSIIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.indicators.helpers.DifferenceIndicator;
+import yang.yu.core.indicators.helpers.HighPriceIndicator;
+import yang.yu.core.indicators.helpers.LowPriceIndicator;
+import yang.yu.core.num.Num;
+import yang.yu.core.num.PrecisionNum;
+import yang.yu.core.num.DoubleNum;
+import yang.yu.core.trading.rules.IsEqualRule;
+import yang.yu.core.trading.rules.UnderIndicatorRule;
 
 import java.time.ZonedDateTime;
 import java.util.Random;

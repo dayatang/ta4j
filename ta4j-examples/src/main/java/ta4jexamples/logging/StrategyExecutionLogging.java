@@ -27,9 +27,9 @@ import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.joran.JoranConfigurator;
 import ch.qos.logback.core.joran.spi.JoranException;
 import org.slf4j.LoggerFactory;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.BarSeriesManager;
-import org.ta4j.core.Strategy;
+import yang.yu.core.BarSeries;
+import yang.yu.core.BarSeriesManager;
+import yang.yu.core.Strategy;
 import ta4jexamples.loaders.CsvTradesLoader;
 import ta4jexamples.strategies.CCICorrectionStrategy;
 

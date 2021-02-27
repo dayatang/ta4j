@@ -23,19 +23,19 @@
  */
 package ta4jexamples.backtesting;
 
-import org.ta4j.core.BacktestExecutor;
-import org.ta4j.core.BaseStrategy;
-import org.ta4j.core.Indicator;
-import org.ta4j.core.Order;
-import org.ta4j.core.Rule;
-import org.ta4j.core.Strategy;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.indicators.SMAIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
-import org.ta4j.core.num.Num;
-import org.ta4j.core.num.PrecisionNum;
-import org.ta4j.core.trading.rules.OverIndicatorRule;
-import org.ta4j.core.trading.rules.UnderIndicatorRule;
+import yang.yu.core.BacktestExecutor;
+import yang.yu.core.BaseStrategy;
+import yang.yu.core.Indicator;
+import yang.yu.core.Order;
+import yang.yu.core.Rule;
+import yang.yu.core.Strategy;
+import yang.yu.core.BarSeries;
+import yang.yu.core.indicators.SMAIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.num.Num;
+import yang.yu.core.num.PrecisionNum;
+import yang.yu.core.trading.rules.OverIndicatorRule;
+import yang.yu.core.trading.rules.UnderIndicatorRule;
 import ta4jexamples.loaders.CsvBarsLoader;
 
 import java.util.ArrayList;

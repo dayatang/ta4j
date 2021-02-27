@@ -86,7 +86,7 @@ for currentStopLossLimitActivation
 - **ALL CRITERION**: Calculations modified to use `Num`.
 - **AbstractIndicator**: new `AbstractIndicator#numOf(Number n)` function as counterpart of dropped `Decimal.valueOf(double|int|..)`
 - **TimeSeries | Bar**: preferred way to add bar data to a `TimeSeries` is directly to the series via new `TimeSeries#addBar(time,open,high,..)` functions. It ensures to use the correct `Num` implementation of the series
-- **XlsTestsUtils**: now processes xls with one or more days between data rows (daily, weekly, monthly, etc).  Also handle xls #DIV/0! calculated cells (imported as NaN.NaN)
+- **XlsTestsUtils**: now processes xls with one or more days between data rows (daily, weekly, monthly, etc).  Also handle xls #DIV/0! calculated cells (imported as NaN)
 - **CachedIndicator**: Last bar is not cached to support real time indicators
 - **TimeSeries | Bar **: added new `#addPrice(price)` function that adds price to (last) bar.
 - Parameter **timeFrame** renamed to **barCount**.
@@ -189,7 +189,7 @@ behaviour of criterions (entry/exit prices can differ from corresponding close p
 
 ### VERY Important note!!!!
 
-with the release 0.10 we have changed the previous java package definition to org.ta4j or to be more specific to org.ta4j.core (the new organisation). You have to reorganize all your refernces to the new packages!
+with the release 0.10 we have changed the previous java package definition to org.ta4j or to be more specific to yang.yu.core (the new organisation). You have to reorganize all your refernces to the new packages!
 In eclipse you can do this easily by selecting your sources and run "Organize imports"
 _Changed ownership of the ta4j repository_: from mdeverdelhan/ta4j (stopped the maintenance) to ta4j/ta4j (new organization)
 

@@ -23,15 +23,15 @@
  */
 package ta4jexamples.backtesting;
 
-import org.ta4j.core.*;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
-import org.ta4j.core.indicators.SMAIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
-import org.ta4j.core.num.Num;
-import org.ta4j.core.num.PrecisionNum;
-import org.ta4j.core.trading.rules.OverIndicatorRule;
-import org.ta4j.core.trading.rules.UnderIndicatorRule;
+import yang.yu.core.*;
+import yang.yu.core.*;
+import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.indicators.SMAIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.num.Num;
+import yang.yu.core.num.PrecisionNum;
+import yang.yu.core.trading.rules.OverIndicatorRule;
+import yang.yu.core.trading.rules.UnderIndicatorRule;
 
 import java.time.Duration;
 import java.time.ZoneId;

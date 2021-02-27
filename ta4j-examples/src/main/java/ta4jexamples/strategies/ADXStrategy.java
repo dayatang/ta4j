@@ -23,22 +23,22 @@
  */
 package ta4jexamples.strategies;
 
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.BarSeriesManager;
-import org.ta4j.core.BaseStrategy;
-import org.ta4j.core.Rule;
-import org.ta4j.core.Strategy;
-import org.ta4j.core.TradingRecord;
-import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
-import org.ta4j.core.indicators.SMAIndicator;
-import org.ta4j.core.indicators.adx.ADXIndicator;
-import org.ta4j.core.indicators.adx.MinusDIIndicator;
-import org.ta4j.core.indicators.adx.PlusDIIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
-import org.ta4j.core.trading.rules.CrossedDownIndicatorRule;
-import org.ta4j.core.trading.rules.CrossedUpIndicatorRule;
-import org.ta4j.core.trading.rules.OverIndicatorRule;
-import org.ta4j.core.trading.rules.UnderIndicatorRule;
+import yang.yu.core.BarSeries;
+import yang.yu.core.BarSeriesManager;
+import yang.yu.core.BaseStrategy;
+import yang.yu.core.Rule;
+import yang.yu.core.Strategy;
+import yang.yu.core.TradingRecord;
+import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.indicators.SMAIndicator;
+import yang.yu.core.indicators.adx.ADXIndicator;
+import yang.yu.core.indicators.adx.MinusDIIndicator;
+import yang.yu.core.indicators.adx.PlusDIIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.trading.rules.CrossedDownIndicatorRule;
+import yang.yu.core.trading.rules.CrossedUpIndicatorRule;
+import yang.yu.core.trading.rules.OverIndicatorRule;
+import yang.yu.core.trading.rules.UnderIndicatorRule;
 import ta4jexamples.loaders.CsvTradesLoader;
 
 /**

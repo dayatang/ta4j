@@ -23,19 +23,19 @@
  */
 package ta4jexamples;
 
-import org.ta4j.core.*;
-import org.ta4j.core.BarSeries;
-import org.ta4j.core.analysis.criteria.AverageProfitableTradesCriterion;
-import org.ta4j.core.analysis.criteria.RewardRiskRatioCriterion;
-import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
-import org.ta4j.core.analysis.criteria.VersusBuyAndHoldCriterion;
-import org.ta4j.core.indicators.SMAIndicator;
-import org.ta4j.core.indicators.helpers.ClosePriceIndicator;
-import org.ta4j.core.num.Num;
-import org.ta4j.core.trading.rules.CrossedDownIndicatorRule;
-import org.ta4j.core.trading.rules.CrossedUpIndicatorRule;
-import org.ta4j.core.trading.rules.StopGainRule;
-import org.ta4j.core.trading.rules.StopLossRule;
+import yang.yu.core.*;
+import yang.yu.core.*;
+import yang.yu.core.analysis.criteria.AverageProfitableTradesCriterion;
+import yang.yu.core.analysis.criteria.RewardRiskRatioCriterion;
+import yang.yu.core.analysis.criteria.TotalProfitCriterion;
+import yang.yu.core.analysis.criteria.VersusBuyAndHoldCriterion;
+import yang.yu.core.indicators.SMAIndicator;
+import yang.yu.core.indicators.helpers.ClosePriceIndicator;
+import yang.yu.core.num.Num;
+import yang.yu.core.trading.rules.CrossedDownIndicatorRule;
+import yang.yu.core.trading.rules.CrossedUpIndicatorRule;
+import yang.yu.core.trading.rules.StopGainRule;
+import yang.yu.core.trading.rules.StopLossRule;
 import ta4jexamples.loaders.CsvTradesLoader;
 
 /**
